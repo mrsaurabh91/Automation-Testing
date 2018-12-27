@@ -1,0 +1,28 @@
+Sep 20, 2018 11:54:51 AM com.magic.sussex.gui.StartBrowserAndReadInput doInBackground
+INFO: Fetching Number of pages in the docx file. Please wait for a min
+Sep 20, 2018 11:54:52 AM com.magic.util.WebDriverFactory getWebDriver
+INFO: Going to launch Web Browser
+Sep 20, 2018 11:54:55 AM com.magic.util.WebDriverFactory getWebDriver
+INFO: Chrome Web Browser launched
+Sep 20, 2018 11:54:56 AM com.magic.sussex.inputDetails.HtmlInputData getInputDocFileContentNew
+INFO: Fetching data from table 1
+Sep 20, 2018 11:55:01 AM com.magic.sussex.inputDetails.HtmlInputData getInputDocFileContentNew
+INFO: Fetching data from table 2
+Sep 20, 2018 11:55:32 AM com.magic.sussex.gui.GUI actionPerformed
+INFO: Submit button of page creation type Clicked
+Sep 20, 2018 11:55:32 AM com.magic.sussex.canvasDataPour.MainSussexPageCreation perform
+INFO: Accessing web application for ingestion of content
+Sep 20, 2018 11:55:43 AM com.magic.sussex.canvasDataPour.MainSussexPageCreation perform
+INFO: Login is successfull
+Sep 20, 2018 11:58:49 AM com.magic.sussex.canvasDataPour.MainSussexPageCreation perform
+INFO: Module Global Marketing Management not found
+Sep 20, 2018 12:00:38 PM com.magic.sussex.gui.StartBrowserAndReadInput doInBackground
+INFO: Fetching Number of pages in the docx file. Please wait for a min
+Sep 20, 2018 12:00:39 PM com.magic.util.WebDriverFactory getWebDriver
+INFO: Going to launch Web Browser
+Sep 20, 2018 12:00:41 PM com.magic.util.WebDriverFactory getWebDriver
+INFO: Chrome Web Browser launched
+Sep 20, 2018 12:00:41 PM com.magic.sussex.inputDetails.HtmlInputData getInputDocFileContentNew
+INFO: Fetching data from table 1
+Sep 20, 2018 12:00:46 PM com.magic.sussex.inputDetails.HtmlInputData getInputDocFileContentNew
+INFO: Fetching data from table 2

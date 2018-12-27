@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.magic.axis360.listeners.ResultListener"/>
+  </listeners>
+  <test thread-count="2" name="TestForWindowChrome(failed)" parallel="tests">
+    <parameter name="searchByKeyword" value="Dog"/>
+    <parameter name="searchByPublisher" value="Nonfiction"/>
+    <parameter name="searchByAuthor" value="Gygi, Craig"/>
+    <parameter name="searchByISBN" value="9781615730537"/>
+    <parameter name="loginExpectedMsg" value="Welcome, Saurabh"/>
+    <parameter name="operatingSystem" value="Windows"/>
+    <parameter name="searchByAlphaNumeric" value="Testing Search Box 123"/>
+    <parameter name="searchByTitle" value="Love That Dog"/>
+    <classes>
+      <class name="com.magic.axis360.testscript.SearchBoxTestIT">
+        <methods>
+          <include name="verifyKeywordRetentionInSearchBoxForTitleByTitle" invocation-numbers="0"/>
+          <include name="verifyKeywordRetentionInSearchBoxForTitleByPublisher" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+          <include name="enterUrl"/>
+          <include name="verifyKeywordRetentionInSearchBoxForKeywordTest" invocation-numbers="0"/>
+          <include name="verifyKeywordRetentionInSearchBoxForAuthorTest" invocation-numbers="0"/>
+          <include name="closeBrowserAterClassExecuted"/>
+          <include name="verifyKeywordRetentionInSearchBoxForTitleByISBN" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.magic.axis360.testscript.SearchBoxTestIT -->
+    </classes>
+  </test> <!-- TestForWindowChrome(failed) -->
+  <test thread-count="2" name="TestForAndroidChrome(failed)" parallel="tests">
+    <parameter name="searchByKeyword" value="Dog"/>
+    <parameter name="searchByPublisher" value="Nonfiction"/>
+    <parameter name="searchByAuthor" value="Gygi, Craig"/>
+    <parameter name="searchByISBN" value="9781615730537"/>
+    <parameter name="loginExpectedMsg" value="Welcome, Saurabh"/>
+    <parameter name="operatingSystem" value="Android"/>
+    <parameter name="searchByAlphaNumeric" value="Testing Search Box 123"/>
+    <parameter name="searchByTitle" value="Love That Dog"/>
+    <classes>
+      <class name="com.magic.axis360.testscript.SearchBoxTestIT">
+        <methods>
+          <include name="verifyKeywordRetentionInSearchBoxForTitleByTitle" invocation-numbers="0"/>
+          <include name="verifyKeywordRetentionInSearchBoxForTitleByPublisher" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+          <include name="enterUrl"/>
+          <include name="verifyKeywordRetentionInSearchBoxForKeywordTest" invocation-numbers="0"/>
+          <include name="verifyKeywordRetentionInSearchBoxForAuthorTest" invocation-numbers="0"/>
+          <include name="closeBrowserAterClassExecuted"/>
+          <include name="verifyKeywordRetentionInSearchBoxForTitleByISBN" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.magic.axis360.testscript.SearchBoxTestIT -->
+    </classes>
+  </test> <!-- TestForAndroidChrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

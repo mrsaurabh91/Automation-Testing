@@ -1,0 +1,27 @@
+{
+  "capabilities":
+      [
+        {
+         "deviceName": "GT-P5113",
+          "browserName": "chrome",
+          "version":"4.2.2",
+          "maxInstances": 20,
+          "platformName":"android",
+		  "deviceId":"c16072910d9404f"
+        }
+      ],
+"configuration":
+{
+"nodeTimeout":120, 
+"hubPort":4444,
+"proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+"url":"http://10.11.3.81:4723/wd/hub",
+"hubHost":"10.11.3.81",
+"nodePolling":2000, 
+"registerCycle":10000,
+"register":true,
+"cleanUpCycle":2000, 
+"timeout":30000, 
+"maxSession":20
+}
+}

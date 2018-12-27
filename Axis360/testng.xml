@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+ <listeners>
+		<listener class-name="com.magic.axis360.listeners.ResultListener"></listener>
+</listeners>
+    <test name="TestForWindowChrome">
+      <parameter name="operatingSystem" value="Windows"></parameter>
+      <parameter name="loginExpectedMsg" value="Welcome, Saurabh" />
+  	  <parameter name="searchByAlphaNumeric" value="Testing Search Box 123" />
+      <parameter name="searchByKeyword" value="Dog" />
+      <parameter name="searchByTitle" value="Love That Dog" />
+      <parameter name="searchByAuthor" value="Gygi, Craig" />
+       <parameter name="searchByPublisher" value="Nonfiction" />
+      <parameter name="searchByISBN" value="9781615730537" />
+    <classes>     
+      <class name="com.magic.axis360.testscript.LoginTestIT"/>
+       <class name="com.magic.axis360.testscript.SearchBoxTestIT"/>  
+      <class name="com.magic.axis360.testscript.AdvancedSearchBoxTestIT"/> 
+    </classes>
+  </test>  
+  
+   <test name="TestForAndroidChrome">
+      <parameter name="operatingSystem" value="Android"></parameter>
+      <parameter name="loginExpectedMsg" value="Welcome, Saurabh" />
+  	  <parameter name="searchByAlphaNumeric" value="Testing Search Box 123" />
+      <parameter name="searchByKeyword" value="Dog" />
+      <parameter name="searchByTitle" value="Love That Dog" />
+      <parameter name="searchByAuthor" value="Gygi, Craig" />
+       <parameter name="searchByPublisher" value="Nonfiction" />
+      <parameter name="searchByISBN" value="9781615730537" />
+    <classes>     
+      <class name="com.magic.axis360.testscript.LoginTestIT"/>
+     <class name="com.magic.axis360.testscript.SearchBoxTestIT"/>
+      <class name="com.magic.axis360.testscript.AdvancedSearchBoxTestIT"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->

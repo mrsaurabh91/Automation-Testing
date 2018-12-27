@@ -1,0 +1,16 @@
+Sep 13, 2018 3:20:51 PM com.magic.sussex.gui.StartBrowserAndReadInput doInBackground
+INFO: Fetching Number of pages in the docx file. Please wait for a min
+Sep 13, 2018 3:20:52 PM com.magic.util.WebDriverFactory getWebDriver
+INFO: Going to launch Web Browser
+Sep 13, 2018 3:20:55 PM com.magic.util.WebDriverFactory getWebDriver
+INFO: Chrome Web Browser launched
+Sep 13, 2018 3:20:55 PM com.magic.sussex.inputDetails.HtmlInputData getInputDocFileContentNew
+INFO: Fetching data from table 1
+Sep 13, 2018 3:21:08 PM com.magic.sussex.gui.GUI actionPerformed
+INFO: Submit button of page creation type Clicked
+Sep 13, 2018 3:21:08 PM com.magic.sussex.canvasDataPour.MainSussexPageCreation perform
+INFO: Accessing web application for ingestion of content
+Sep 13, 2018 3:21:15 PM com.magic.sussex.canvasDataPour.MainSussexPageCreation perform
+INFO: Login is successfull
+Sep 13, 2018 3:21:21 PM com.magic.sussex.canvasDataPour.MainSussexPageCreation perform
+INFO: Module test not found

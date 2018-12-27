@@ -1,0 +1,62 @@
+{
+    "type": "Word_Grid",
+    "start": {
+        "templateName": "<span class=\"english startTitle\">title</span>",
+        "__tagsList": {
+            "templateName": "templateName"
+        }
+    },
+
+    "question": {
+        "attempts": "3",
+        "score": "1",
+        "sText": "",
+        "audio": "",
+        "answerkey": {
+            "answer": [
+				"zzzzz",
+                "xxxxx",
+                "yyyyy",
+				
+            ],
+            "__tagsList": {
+                "answer": "answer"
+            }
+        },
+        "title": "page 1 title",
+        "options": {
+            "row": [
+              "xxxxxxxxxx",
+              "xxxxxxxxxx",
+              "xxxxxxxxxx",
+              "xxxxxxxxxx",
+              "xxxxxxxxxx",
+              "xxxxxxxxxx",
+              "xxxxxxxxxx",
+              "xxxxxxxxxx",
+              "xxxxxxxxxx",
+              "xxxxxxxxxx"
+
+            ],
+            "__tagsList": {
+                "row": "row"
+            }
+        },
+        "__tagsList": {
+            "attempts": "attempts",
+            "score": "score",
+            "text": "text",
+            "audio": "audio",
+            "answerkey": "answerkey",
+            "options": "options"
+        }
+    },
+    
+    "path": "question",
+    "__tagsList": {
+        "type": "type",
+        "start": "start",
+        "title": "title",
+        "question": "question"
+    },
+}

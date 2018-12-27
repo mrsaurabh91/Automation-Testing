@@ -1,0 +1,22 @@
+Sep 24, 2018 6:18:51 PM com.magic.util.WebDriverFactory getWebDriver
+INFO: Going to launch Web Browser
+Sep 24, 2018 6:18:53 PM com.magic.util.WebDriverFactory getWebDriver
+INFO: Chrome Web Browser launched
+Sep 24, 2018 6:18:53 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo startImageUpload
+INFO: Accessing web application for Upload Asset
+Sep 24, 2018 6:19:11 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo startImageUpload
+INFO: Login is successfull
+Sep 24, 2018 6:19:11 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo uploadImage
+INFO: Image Upload is in Progress....
+Sep 24, 2018 6:19:28 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getClickOnFolderName
+INFO: Folder Test get clicked
+Sep 24, 2018 6:19:43 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo uploadImage
+INFO: Total Count of files 3
+Sep 24, 2018 6:19:43 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo uploadImage
+INFO: HomePageImage_2x.jpg replaced
+Sep 24, 2018 6:19:43 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo uploadImage
+INFO: homepage_banner2x.jpg replaced
+Sep 24, 2018 6:19:43 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo uploadImage
+INFO: home_banner.jpg replaced
+Sep 24, 2018 6:19:54 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo uploadImage
+INFO: Image upload successfull

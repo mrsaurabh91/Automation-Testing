@@ -1,0 +1,10 @@
+Oct 30, 2018 3:16:02 PM com.magic.sussex.gui.StartBrowserAndReadInput doInBackground
+INFO: Fetching Number of pages from the docx file. Please wait
+Oct 30, 2018 3:16:04 PM com.magic.util.WebDriverFactory getWebDriver
+INFO: Launch Web Browser
+Oct 30, 2018 3:16:06 PM com.magic.util.WebDriverFactory getWebDriver
+INFO: Chrome Web Browser launched.
+Oct 30, 2018 3:16:08 PM com.magic.sussex.inputDetails.HtmlInputData getInputDocFileContentNew
+INFO: Fetching data from table 1
+Oct 30, 2018 3:16:13 PM com.magic.sussex.inputDetails.HtmlInputData getInputDocFileContentNew
+INFO: Fetching data from table 2

@@ -1,0 +1,18 @@
+Sep 20, 2018 3:14:15 PM com.magic.sussex.gui.StartBrowserAndReadInput doInBackground
+INFO: Fetching Number of pages in the docx file. Please wait for a min
+Sep 20, 2018 3:14:16 PM com.magic.util.WebDriverFactory getWebDriver
+INFO: Going to launch Web Browser
+Sep 20, 2018 3:14:18 PM com.magic.util.WebDriverFactory getWebDriver
+INFO: Chrome Web Browser launched
+Sep 20, 2018 3:14:18 PM com.magic.sussex.inputDetails.HtmlInputData getInputDocFileContentNew
+INFO: Fetching data from table 1
+Sep 20, 2018 3:14:23 PM com.magic.sussex.inputDetails.HtmlInputData getInputDocFileContentNew
+INFO: Fetching data from table 2
+Sep 20, 2018 3:14:30 PM com.magic.sussex.gui.GUI actionPerformed
+INFO: Submit button of page creation type Clicked
+Sep 20, 2018 3:14:36 PM com.magic.sussex.gui.GUI actionPerformed
+INFO: Submit button of page creation type Clicked
+Sep 20, 2018 3:14:39 PM com.magic.sussex.gui.GUI actionPerformed
+INFO: Submit button of page creation type Clicked
+Sep 20, 2018 3:15:06 PM com.magic.sussex.gui.GUI actionPerformed
+INFO: Submit button of page creation type Clicked

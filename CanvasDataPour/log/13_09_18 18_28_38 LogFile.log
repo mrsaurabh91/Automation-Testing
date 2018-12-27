@@ -1,0 +1,187 @@
+Sep 13, 2018 6:30:04 PM com.magic.sussex.gui.StartBrowserAndReadInput doInBackground
+INFO: Fetching Number of pages in the docx file. Please wait for a min
+Sep 13, 2018 6:30:05 PM com.magic.util.WebDriverFactory getWebDriver
+INFO: Going to launch Web Browser
+Sep 13, 2018 6:30:07 PM com.magic.util.WebDriverFactory getWebDriver
+INFO: Chrome Web Browser launched
+Sep 13, 2018 6:30:07 PM com.magic.sussex.inputDetails.HtmlInputData getInputDocFileContentNew
+INFO: Fetching data from table 1
+Sep 13, 2018 6:30:17 PM com.magic.sussex.gui.GUI actionPerformed
+INFO: Submit button of page creation type Clicked
+Sep 13, 2018 6:30:17 PM com.magic.sussex.canvasDataPour.MainSussexPageCreation perform
+INFO: Accessing web application for ingestion of content
+Sep 13, 2018 6:30:26 PM com.magic.sussex.canvasDataPour.MainSussexPageCreation perform
+INFO: Login is successfull
+Sep 13, 2018 6:30:33 PM com.magic.sussex.canvasDataPour.MainSussexPageCreation perform
+INFO: Module Global Marketing Management selected
+Sep 13, 2018 6:30:33 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Fetching asset details
+Sep 13, 2018 6:30:50 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getClickOnFolderName
+INFO: Folder test get clicked
+Sep 13, 2018 6:31:05 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Total asset count 16
+Sep 13, 2018 6:31:05 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name 2018-08-24-15-18-48.mp4 and URL https://canvas.sussex.ac.uk/files/255858/download
+Sep 13, 2018 6:31:05 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name arrow-right.png and URL https://canvas.sussex.ac.uk/files/252236/download
+Sep 13, 2018 6:31:05 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name arrow-top-right.png and URL https://canvas.sussex.ac.uk/files/252237/download
+Sep 13, 2018 6:31:05 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name assignmentBrief_2x.jpg and URL https://canvas.sussex.ac.uk/files/252238/download
+Sep 13, 2018 6:31:05 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name desktop.ini and URL https://canvas.sussex.ac.uk/files/255850/download
+Sep 13, 2018 6:31:05 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name Eclipse Java Neon.lnk and URL https://canvas.sussex.ac.uk/files/255851/download
+Sep 13, 2018 6:31:05 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name Folens eReader.lnk and URL https://canvas.sussex.ac.uk/files/255852/download
+Sep 13, 2018 6:31:06 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name home_banner.jpg and URL https://canvas.sussex.ac.uk/files/252239/download
+Sep 13, 2018 6:31:06 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name Icon_Checklist.png and URL https://canvas.sussex.ac.uk/files/255868/download
+Sep 13, 2018 6:31:06 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name Icon_Examples.png and URL https://canvas.sussex.ac.uk/files/255866/download
+Sep 13, 2018 6:31:06 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name Icon_key.png and URL https://canvas.sussex.ac.uk/files/256282/download
+Sep 13, 2018 6:31:06 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name Icon_Portfolio.png and URL https://canvas.sussex.ac.uk/files/255867/download
+Sep 13, 2018 6:31:06 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name Icon_Q.png and URL https://canvas.sussex.ac.uk/files/256281/download
+Sep 13, 2018 6:31:06 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name jitin.jpg and URL https://canvas.sussex.ac.uk/files/255862/download
+Sep 13, 2018 6:31:06 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name splash.png and URL https://canvas.sussex.ac.uk/files/255406/download
+Sep 13, 2018 6:31:06 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name TakeFurther2.png and URL https://canvas.sussex.ac.uk/files/256283/download
+Sep 13, 2018 6:31:06 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Fetching asset information completed successfull
+Sep 13, 2018 6:31:06 PM com.magic.sussex.canvasDataPour.ReadTemplate verifyImageDetailsAvailable
+INFO: Verifying required images available in application
+Sep 13, 2018 6:31:06 PM com.magic.sussex.canvasDataPour.ReadTemplate verifyImageDetailsAvailable
+INFO: Table 1
+Sep 13, 2018 6:31:06 PM com.magic.sussex.canvasDataPour.MainSussexPageCreation perform
+INFO: All images are available in application
+Sep 13, 2018 6:31:06 PM com.magic.sussex.canvasDataPour.ReadTemplate redirectToAllPages
+INFO: Fetching the details of already created pages...
+Sep 13, 2018 6:31:24 PM com.magic.sussex.canvasDataPour.ReadTemplate redirectToAllPages
+INFO: Total count of already created pages 60
+Sep 13, 2018 6:31:28 PM com.magic.sussex.canvasDataPour.ReadTemplate redirectToAllPages
+INFO: Details of already existing pages fetched successfully
+Sep 13, 2018 6:31:33 PM com.magic.sussex.canvasDataPour.ReadTemplate getInputAndPourContent
+INFO: Ingestion of data table wise is getting started 
+Sep 13, 2018 6:31:33 PM com.magic.sussex.canvasDataPour.ReadTemplate getInputAndPourContent
+INFO: Table 1
+Sep 13, 2018 6:31:33 PM com.magic.sussex.canvasDataPour.ReadTemplate getInputAndPourContent
+INFO: Template Focus mentioned found in template folder
+Sep 13, 2018 6:31:33 PM com.magic.sussex.canvasDataPour.ReadTemplate getInputAndPourContent
+INFO: Page Title Test1
+Sep 13, 2018 6:31:37 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Reading template....
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Preparing final html to be ingested
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: InputKey PageSection
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Global Marketing Management successfully entered in HTML code
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: URL https://canvas.sussex.ac.uk/courses/3495/pages/global-marketing-management of page GLOBAL MARKETING MANAGEMENT
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Page GLOBAL MARKETING MANAGEMENT URL https://canvas.sussex.ac.uk/courses/3495/pages/global-marketing-management successfully entered in HTML code
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text GLOBAL MARKETING MANAGEMENT successfully entered in HTML code
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Focus successfully entered in HTML code
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Explore successfully entered in HTML code
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: URL https://canvas.sussex.ac.uk/courses/3495/pages/week-1-deciding-to-internationalise-explore of page Week 1: Deciding to internationalise: Explore
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Page Week 1: Deciding to internationalise: Explore URL https://canvas.sussex.ac.uk/courses/3495/pages/week-1-deciding-to-internationalise-explore successfully entered in HTML code
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Apply successfully entered in HTML code
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: URL https://canvas.sussex.ac.uk/courses/3495/pages/week-1-deciding-to-internationalise-apply of page Week 1: Deciding to internationalise: Apply
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Page Week 1: Deciding to internationalise: Apply URL https://canvas.sussex.ac.uk/courses/3495/pages/week-1-deciding-to-internationalise-apply successfully entered in HTML code
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: InputKey FocusText
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Welcome to Week 1. successfully entered in HTML code
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Your <strong style="font-weight: bold;">Focus </strong>is on why and how a company decides to go global. successfully entered in HTML code
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text First, watch the insights video to get a real-world context. Consider the questions below while you <strong style="font-weight: bold;">Explore </strong>the resources. Move onto <strong style="font-weight: bold;">Apply </strong>to add to your portfolio, work that will count towards your final assignment. successfully entered in HTML code
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: InputKey Heading
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Insights successfully entered in HTML code
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: InputKey VideoFocus
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text https://player.vimeo.com/video/284135324 successfully entered in HTML code
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text TRANSCRIPTS successfully entered in HTML code
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text https://canvas.sussex.ac.uk/courses/3495/files/241762/download?wrap=1 successfully entered in HTML code
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text International-Marketing-Insights-Week-1-Transcript.pdf successfully entered in HTML code
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: InputKey FocusContent
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Your focus for this week is to ask yourself: successfully entered in HTML code
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text What steps should a firm take when thinking about going global? successfully entered in HTML code
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text What's the impact on the firm’s value chain if they decide to go into foreign markets? successfully entered in HTML code
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text What reasons would a firm have for going international? successfully entered in HTML code
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text What are the main approaches a firm should consider when extending into overseas markets? successfully entered in HTML code
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text How can benchmarking help a firm to create an international competitive advantage? successfully entered in HTML code
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.ReadTemplate getInputAndPourContent
+INFO: Final html is ready to be poured
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.ReadTemplate getInputAndPourContent
+INFO: Final HTML Code of page Test1--> <div id="PageSection" style="display: block; margin-bottom: -5px; overflow: hidden; background: #f5f5f5; border-top: 4px solid #00afaa; height: 30px; padding-top: 6px; padding-left: 15px;">
+<p style="display: inline;"><a component="pagetitle1" style="text-decoration: none; color: #000000; font-size: 14px; font-family: sans-serif; margin-left: 0px; display: inline-block;" title="" href="https://canvas.sussex.ac.uk/courses/3495/pages/global-marketing-management"> <img component="page1" style="margin-bottom: 3px; margin-right: 10px;" src="https://canvas.sussex.ac.uk/courses/3495/files/221550/download" alt="back_small.png" width="14" height="14" data-api-endpoint="https://canvas.sussex.ac.uk/api/v1/courses/3495/files/221550" data-api-returntype="File">GLOBAL MARKETING MANAGEMENT </a></p>
+
+<ul style="float: right; list-style: none; margin: 0px; font-family: sans-serif; padding: 0px;">
+<li style="float: left; margin: 1px 15px;"><a component="pagetitle2" style="padding: 2px 4px; text-decoration: none; font-size: 14px; color: #00afaa; border-bottom: 4px solid #00afaa; height: 21px; display: inline-block; width: 50px; text-align: center;" href="">Focus</a></li>
+<li style="float: left; margin: 1px 15px;"><a component="pagetitle3" style="padding: 2px 4px; text-decoration: none; font-size: 14px; color: #000000;" href="https://canvas.sussex.ac.uk/courses/3495/pages/week-1-deciding-to-internationalise-explore">Explore</a></li>
+<li style="float: left; margin: 1px 15px;"><a component="pagetitle4" style="padding: 2px 4px; text-decoration: none; font-size: 14px; color: #000000;" href="https://canvas.sussex.ac.uk/courses/3495/pages/week-1-deciding-to-internationalise-apply">Apply</a></li>
+</ul>
+</div>
+<div id="FocusText" style="display: block; width: 100%;">
+ <p component="text1" style="font-size: 16px; font-family: arial; margin: 24px 0 0 5px;font-weight: 400; color: #000000;">Welcome to Week 1.</p>
+ <p component="text2" style="font-size: 16px; font-family: arial; margin: 0px 0 0 5px;font-weight: 400; color: #000000;">Your <strong style="font-weight: bold;">Focus </strong>is on why and how a company decides to go global.</p>
+ <p component="text3" style="font-size: 16px; font-family: arial; margin: 0px 0 0 5px;color: #000000;">First, watch the insights video to get a real-world context. Consider the questions below while you <strong style="font-weight: bold;">Explore </strong>the resources. Move onto <strong style="font-weight: bold;">Apply </strong>to add to your portfolio, work that will count towards your final assignment.</p>
+</div>
+
+<div id="Heading">
+  <h2 component="headtext" style="color: #043b4a; margin: 20px 0 0px 0; font-family: BaskerVille; line-height: 26px;">Insights</h2>
+</div>
+
+
+<div id="VideoFocus" style="width: 100%; display: inline-block; margin-bottom: 20px;">
+	<div style="width: 300px; margin-right: 10px; z-index: 999; margin-top: 10px; float: left; display: inline-block; font-family: arial; position: relative;"><iframe component="video" style="width: 396px; height: 250px; position: relative; top: -40px;" src="https://player.vimeo.com/video/284135324"></iframe>
+<div style="background: #cb1c41; width: 300px; position: relative; top: -75px; z-index: 9999;"><a component="transcripts" style="color: #ffffff; text-decoration: none; font-family: sans-serif; font-size: 14px; line-height: 30px; display: block; padding: 5px 10px; text-align: center;" title="International-Marketing-Insights-Week-1-Transcript.pdf" href="https://canvas.sussex.ac.uk/courses/3495/files/241762/download?wrap=1"><span component="transcriptstext">TRANSCRIPTS</span><img style="margin-left: 5px; max-width: 920px;" src="https://canvas.sussex.ac.uk/courses/6462/files/234774/download" alt="Shape.png" data-api-endpoint="https://canvas.sussex.ac.uk/api/v1/courses/6462/files/234774" data-api-returntype="File"> </a></div>
+</div>
+<div id="FocusContent" style="font-size: 14px; font-family: arial; padding-top: 16px; color: #000000; margin-top: 10px; left: 0px; right: 0px; margin-left: 310px; border-top: 7px solid #007a78; background-color: #f4f4f4; min-height: 222px; padding-left: 6px;">
+<p style="margin: 0; padding: 0px 10px 0 20px; margin-bottom: 5px;"></p>
+<div style="margin: 0; padding: 0px 10px 0 20px; font-family: arial;">
+<ul>
+
+
+
+
+
+</ul>
+</div>
+</div>
+
+</div>
+Sep 13, 2018 6:31:38 PM com.magic.sussex.canvasDataPour.ReadTemplate createPage
+INFO: Going to pour html code in Test1
+Sep 13, 2018 6:31:57 PM com.magic.sussex.canvasDataPour.ReadTemplate createPage
+INFO: Page Test1 created successfully
+Sep 13, 2018 6:31:57 PM com.magic.sussex.canvasDataPour.MainSussexPageCreation perform
+INFO: Execution completed please close the tool and restart it for next execution

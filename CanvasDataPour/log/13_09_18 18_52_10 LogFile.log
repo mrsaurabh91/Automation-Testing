@@ -1,0 +1,204 @@
+Sep 13, 2018 6:52:45 PM com.magic.sussex.gui.StartBrowserAndReadInput doInBackground
+INFO: Fetching Number of pages in the docx file. Please wait for a min
+Sep 13, 2018 6:52:46 PM com.magic.util.WebDriverFactory getWebDriver
+INFO: Going to launch Web Browser
+Sep 13, 2018 6:52:49 PM com.magic.util.WebDriverFactory getWebDriver
+INFO: Chrome Web Browser launched
+Sep 13, 2018 6:52:49 PM com.magic.sussex.inputDetails.HtmlInputData getInputDocFileContentNew
+INFO: Fetching data from table 1
+Sep 13, 2018 6:52:59 PM com.magic.sussex.gui.GUI actionPerformed
+INFO: Submit button of page creation type Clicked
+Sep 13, 2018 6:52:59 PM com.magic.sussex.canvasDataPour.MainSussexPageCreation perform
+INFO: Accessing web application for ingestion of content
+Sep 13, 2018 6:53:07 PM com.magic.sussex.canvasDataPour.MainSussexPageCreation perform
+INFO: Login is successfull
+Sep 13, 2018 6:53:14 PM com.magic.sussex.canvasDataPour.MainSussexPageCreation perform
+INFO: Module Global Marketing Management selected
+Sep 13, 2018 6:53:14 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Fetching asset details
+Sep 13, 2018 6:53:31 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getClickOnFolderName
+INFO: Folder test get clicked
+Sep 13, 2018 6:53:46 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Total asset count 16
+Sep 13, 2018 6:53:46 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name 2018-08-24-15-18-48.mp4 and URL https://canvas.sussex.ac.uk/files/255858/download
+Sep 13, 2018 6:53:46 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name arrow-right.png and URL https://canvas.sussex.ac.uk/files/252236/download
+Sep 13, 2018 6:53:46 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name arrow-top-right.png and URL https://canvas.sussex.ac.uk/files/252237/download
+Sep 13, 2018 6:53:46 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name assignmentBrief_2x.jpg and URL https://canvas.sussex.ac.uk/files/252238/download
+Sep 13, 2018 6:53:46 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name desktop.ini and URL https://canvas.sussex.ac.uk/files/255850/download
+Sep 13, 2018 6:53:46 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name Eclipse Java Neon.lnk and URL https://canvas.sussex.ac.uk/files/255851/download
+Sep 13, 2018 6:53:46 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name Folens eReader.lnk and URL https://canvas.sussex.ac.uk/files/255852/download
+Sep 13, 2018 6:53:46 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name home_banner.jpg and URL https://canvas.sussex.ac.uk/files/252239/download
+Sep 13, 2018 6:53:46 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name Icon_Checklist.png and URL https://canvas.sussex.ac.uk/files/255868/download
+Sep 13, 2018 6:53:47 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name Icon_Examples.png and URL https://canvas.sussex.ac.uk/files/255866/download
+Sep 13, 2018 6:53:47 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name Icon_key.png and URL https://canvas.sussex.ac.uk/files/256282/download
+Sep 13, 2018 6:53:47 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name Icon_Portfolio.png and URL https://canvas.sussex.ac.uk/files/255867/download
+Sep 13, 2018 6:53:47 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name Icon_Q.png and URL https://canvas.sussex.ac.uk/files/256281/download
+Sep 13, 2018 6:53:47 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name jitin.jpg and URL https://canvas.sussex.ac.uk/files/255862/download
+Sep 13, 2018 6:53:47 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name splash.png and URL https://canvas.sussex.ac.uk/files/255406/download
+Sep 13, 2018 6:53:47 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name TakeFurther2.png and URL https://canvas.sussex.ac.uk/files/256283/download
+Sep 13, 2018 6:53:47 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Fetching asset information completed successfull
+Sep 13, 2018 6:53:47 PM com.magic.sussex.canvasDataPour.ReadTemplate verifyImageDetailsAvailable
+INFO: Verifying required images available in application
+Sep 13, 2018 6:53:47 PM com.magic.sussex.canvasDataPour.ReadTemplate verifyImageDetailsAvailable
+INFO: Table 1
+Sep 13, 2018 6:53:47 PM com.magic.sussex.canvasDataPour.MainSussexPageCreation perform
+INFO: All images are available in application
+Sep 13, 2018 6:53:47 PM com.magic.sussex.canvasDataPour.ReadTemplate redirectToAllPages
+INFO: Fetching the details of already created pages...
+Sep 13, 2018 6:54:02 PM com.magic.sussex.canvasDataPour.ReadTemplate redirectToAllPages
+INFO: Total count of already created pages 60
+Sep 13, 2018 6:54:06 PM com.magic.sussex.canvasDataPour.ReadTemplate redirectToAllPages
+INFO: Details of already existing pages fetched successfully
+Sep 13, 2018 6:54:11 PM com.magic.sussex.canvasDataPour.ReadTemplate getInputAndPourContent
+INFO: Ingestion of data table wise is getting started 
+Sep 13, 2018 6:54:11 PM com.magic.sussex.canvasDataPour.ReadTemplate getInputAndPourContent
+INFO: Table 1
+Sep 13, 2018 6:54:11 PM com.magic.sussex.canvasDataPour.ReadTemplate getInputAndPourContent
+INFO: Template Team Task mentioned found in template folder
+Sep 13, 2018 6:54:11 PM com.magic.sussex.canvasDataPour.ReadTemplate getInputAndPourContent
+INFO: Page Title Test1
+Sep 13, 2018 6:54:15 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Reading template....
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Preparing final html to be ingested
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: InputKey PageSection
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Global Marketing Management successfully entered in HTML code
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: URL https://canvas.sussex.ac.uk/courses/3495/pages/global-marketing-management of page GLOBAL MARKETING MANAGEMENT
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Page GLOBAL MARKETING MANAGEMENT URL https://canvas.sussex.ac.uk/courses/3495/pages/global-marketing-management successfully entered in HTML code
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text GLOBAL MARKETING MANAGEMENT successfully entered in HTML code
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Assignment brief successfully entered in HTML code
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: URL https://canvas.sussex.ac.uk/courses/3495/pages/assignment-brief of page Assignment brief
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Page Assignment brief URL https://canvas.sussex.ac.uk/courses/3495/pages/assignment-brief successfully entered in HTML code
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Team task successfully entered in HTML code
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: InputKey ModuleHeading
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Module Lead’s introduction successfully entered in HTML code
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: InputKey TeamVideo
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text https://player.vimeo.com/video/284135628 successfully entered in HTML code
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text TRANSCRIPTS successfully entered in HTML code
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text https://canvas.sussex.ac.uk/courses/3495/files/241761/download?wrap=1 successfully entered in HTML code
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: InputKey TeamContent
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Finding out about other markets and collaborating is key to global marketing. successfully entered in HTML code
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text To complete your assignment, you need to work with your colleagues. successfully entered in HTML code
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text First of all, get to know your group and introduce yourself. successfully entered in HTML code
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Not sure how? Listen to Module Lead René Moolenaar give an example of how you can introduce yourself. successfully entered in HTML code
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text <strong style="font-weight: bold;">Note:</strong> there is support in selecting and working with someone – watch for messages. successfully entered in HTML code
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: InputKey TaskStep
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text <strong style="font-weight: bold;">Step 1</strong> successfully entered in HTML code
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Create a video about yourself, following guidance from the Module Lead. successfully entered in HTML code
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text <strong style="font-weight: bold;">Step 2</strong> successfully entered in HTML code
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Upload your video introduction to the Discussion forum. successfully entered in HTML code
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text <strong style="font-weight: bold;">Step 3</strong> successfully entered in HTML code
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Watch videos uploaded to the Discussion forum by fellow students. successfully entered in HTML code
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text <strong style="font-weight: bold;">Step 4</strong> successfully entered in HTML code
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Your Student Success Advisor will pair you up with another student. successfully entered in HTML code
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text <strong style="font-weight: bold;">Step 5</strong> successfully entered in HTML code
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Contact your 'pair', get to know them and the conditions of the market in their country as you will be working together in the team tasks. successfully entered in HTML code
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text DISCUSSION FORUM successfully entered in HTML code
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text https://canvas.sussex.ac.uk/courses/3495/discussion_topics/3065 successfully entered in HTML code
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Discussion forum successfully entered in HTML code
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.ReadTemplate getInputAndPourContent
+INFO: Final html is ready to be poured
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.ReadTemplate getInputAndPourContent
+INFO: Final HTML Code of page Test1--> <div id="PageSection" style="display: block; margin-bottom: -5px; overflow: hidden; background: #f5f5f5; border-top: 4px solid #00afaa; height: 30px; padding-top: 6px; padding-left: 15px;">
+<p style="display: inline;"><a component="pagetitle1" style="text-decoration: none; color: #000000; font-size: 14px; font-family: sans-serif; margin-left: 0px; display: inline-block;" title="" href="https://canvas.sussex.ac.uk/courses/3495/pages/global-marketing-management"><img style="margin-bottom: 3px; margin-right: 10px; max-width: 989px;" src="https://canvas.sussex.ac.uk/courses/6462/files/230520/download?wrap=1" alt="back_small.png" width="14" height="14" data-api-endpoint="https://canvas.sussex.ac.uk/api/v1/courses/6462/files/230520" data-api-returntype="File"> <span component="page1" style="position: relative;">GLOBAL MARKETING MANAGEMENT</span> </a></p>
+<ul style="float: right; list-style: none; margin: 0px; font-family: sans-serif; padding: 0px;">
+<li style="float: left; margin: 1px 15px;"><a component="pagetitle2" style="padding: 2px 4px; text-decoration: none; font-size: 14px; color: #000;" href="https://canvas.sussex.ac.uk/courses/3495/pages/assignment-brief">Assignment brief</a></li>
+<li style="float: left; margin: 1px 15px;"><a component="pagetitle3" style="padding: 2px 4px; text-decoration: none; font-size: 14px; border-bottom: 3px solid #00afaa; color: #00afaa; display: inline-block; height: 21px; text-align: center;" href="#">Team task</a></li>
+</ul>
+</div>
+<div id="ModuleHeading">
+<h2 component="modulename" style="color: #043b4a; font-family: BaskerVille; margin: 20px 0 3px 0; line-height: 26px; font-size: 27px; margin-bottom: 10px;">Module Lead’s introduction</h2>
+</div>
+<div style="width: 100%; font-family: 'arial'; position: relative; overflow: hidden;">
+<div id="TeamVideo" style="width: 300px; margin-right: 10px; z-index: 999; margin-bottom: 10px; float: left; display: inline-block; font-family: arial; position: relative;"><iframe component="video" style="width: 396px; height: 250px; position: relative; top: -40px;" src="https://player.vimeo.com/video/284135628"></iframe>
+<div style="background: #cb1c41; width: 300px; position: relative; top: -75px; z-index: 9999;"><a component="transcripts" style="color: #ffffff; text-decoration: none; font-family: sans-serif; font-size: 14px; line-height: 30px; display: block; padding: 5px 10px; text-align: center;" href="https://canvas.sussex.ac.uk/courses/3495/files/241761/download?wrap=1">TRANSCRIPTS<img style="margin-left: 5px; max-width: 920px;" src="https://canvas.sussex.ac.uk/courses/6462/files/234774/download" alt="Shape.png" data-api-endpoint="https://canvas.sussex.ac.uk/api/v1/courses/6462/files/234774" data-api-returntype="File"> </a></div>
+</div>
+<div id="TeamContent" style="font-size: 14px; color: #000000; background-color: #f4f4f4; padding: 10px; padding-top: 16px; padding-left: 20px; border-top: 7px solid #e2592e; margin-left: 310px; min-height: 190px; min-width: 245px;">
+<p style="margin: 0 0 0px; padding: 0px 10px 0px 0px;"><span component="contentteam1" style="font-size: 14px; color: #000; display: inline-block;">Finding out about other markets and collaborating is key to global marketing.</span></p>
+<p style="margin: 0 0 0px; padding: 0px 10px 0px 0px;"><span component="contentteam2" style="font-size: 14px; color: #000; display: inline-block;">To complete your assignment, you need to work with your colleagues.</span></p>
+<p style="margin: 0 0 0px; padding: 0px 10px 0px 0px;"><span component="contentteam3" style="font-size: 14px; color: #000; display: inline-block;">First of all, get to know your group and introduce yourself.</span></p>
+<p style="margin: 0 0 0px; padding: 0px 10px 0px 0px;"><span component="contentteam4" style="font-size: 14px; color: #000; display: inline-block;">Not sure how? Listen to Module Lead René Moolenaar give an example of how you can introduce yourself.</span></p>
+<p style="margin: 0 0 0px; padding: 0px 10px 0px 0px;"><span component="contentteam5" style="font-size: 14px; color: #000; display: inline-block;"><strong style="font-weight: bold;">Note:</strong> there is support in selecting and working with someone – watch for messages.</span></p>
+</div>
+</div>
+<div id="TaskStep" style="width: 100%; display: inline-block; font-family: 'arial'; margin-top: 10px; margin-bottom: 20px;">
+<div style="padding: 15px 8px 15px 20px; background-color: #f4f4f4; margin-bottom: 10px; position: relative;">
+<div style="position: absolute; left: 12px; top: 8px;"><strong component="titlestep1" style="font-size: 18px; font-weight: bold;"><strong style="font-weight: bold;">Step 1</strong></strong> <strong style="margin: 0 0 0 15px;"> <img style="margin-right: 8px; max-width: 915px;" src="https://canvas.sussex.ac.uk/courses/3495/files/221565/download" alt="StepChevrons1x.png" width="20" height="27" data-api-endpoint="https://canvas.sussex.ac.uk/api/v1/courses/3495/files/221565" data-api-returntype="File"> </strong></div>
+<p component="step1" style="margin: 0; padding: 0 0 0 120px; font-size: 14px; color: #000;">Create a video about yourself, following guidance from the Module Lead.</p>
+</div>
+<div style="padding: 15px 8px 15px 20px; background-color: #f4f4f4; margin-bottom: 10px; position: relative;">
+<div style="position: absolute; left: 12px; top: 8px;"><strong component="titlestep2" style="font-size: 18px; font-weight: bold;"><strong style="font-weight: bold;">Step 2</strong></strong> <strong style="margin: 0 0 0 15px;"> <img style="margin-right: 8px; max-width: 915px;" src="https://canvas.sussex.ac.uk/courses/3495/files/221565/download" alt="StepChevrons1x.png" width="20" height="27" data-api-endpoint="https://canvas.sussex.ac.uk/api/v1/courses/3495/files/221565" data-api-returntype="File"> </strong></div>
+<p component="step2" style="margin: 0; padding: 0 0 0 120px; font-size: 14px; color: #000;">Upload your video introduction to the Discussion forum.</p>
+</div>
+<div style="padding: 15px 8px 15px 20px; background-color: #f4f4f4; margin-bottom: 10px; position: relative;">
+<div style="position: absolute; left: 12px; top: 12px;"><strong component="titlestep3" style="font-size: 18px; font-weight: bold;"><strong style="font-weight: bold;">Step 3</strong></strong> <strong style="margin: 0 0 0 15px;"> <img style="margin-right: 8px; max-width: 915px;" src="https://canvas.sussex.ac.uk/courses/3495/files/221565/download" alt="StepChevrons1x.png" width="20" height="27" data-api-endpoint="https://canvas.sussex.ac.uk/api/v1/courses/3495/files/221565" data-api-returntype="File"> </strong></div>
+<p component="step3" style="margin: 0; padding: 0 0 0 120px; font-size: 14px; color: #000;">Watch videos uploaded to the Discussion forum by fellow students.</p>
+</div>
+<div style="padding: 15px 8px 15px 20px; background-color: #f4f4f4; margin-bottom: 10px; position: relative;">
+<div style="position: absolute; left: 12px; top: 12px;"><strong component="titlestep4" style="font-size: 18px; font-weight: bold;"><strong style="font-weight: bold;">Step 4</strong></strong> <strong style="margin: 0 0 0 15px;"> <img style="margin-right: 8px; max-width: 915px;" src="https://canvas.sussex.ac.uk/courses/3495/files/221565/download" alt="StepChevrons1x.png" width="20" height="27" data-api-endpoint="https://canvas.sussex.ac.uk/api/v1/courses/3495/files/221565" data-api-returntype="File"> </strong></div>
+<p component="step4" style="margin: 0; padding: 0 0 0 120px; font-size: 14px; color: #000;">Your Student Success Advisor will pair you up with another student.</p>
+</div>
+<div style="padding: 15px 8px 15px 20px; background-color: #f4f4f4; margin-bottom: 10px; position: relative;">
+<div style="position: absolute; left: 12px; top: 12px;"><strong component="titlestep5" style="font-size: 18px; font-weight: bold;"><strong style="font-weight: bold;">Step 5</strong></strong> <strong style="margin: 0 0 0 15px;"> <img style="margin-right: 8px; max-width: 915px;" src="https://canvas.sussex.ac.uk/courses/3495/files/221565/download" alt="StepChevrons1x.png" width="20" height="27" data-api-endpoint="https://canvas.sussex.ac.uk/api/v1/courses/3495/files/221565" data-api-returntype="File"> </strong></div>
+<p component="step5" style="margin: 0; padding: 0 0 0 120px; font-size: 14px; color: #000;">Contact your 'pair', get to know them and the conditions of the market in their country as you will be working together in the team tasks.</p>
+</div>
+<div style="background-color: #cb1c41; padding: 5px 10px; right: 0px; text-align: center; position: relative; float: right; line-height: 30px; font-size: 14px; width: 162px;"><a component="discussionbtn" style="text-decoration: none; font-family: arial; color: #fff;" title="Discussion forum" href="https://canvas.sussex.ac.uk/courses/3495/discussion_topics/3065">DISCUSSION FORUM<img style="width: 10px; height: 10px; padding-left: 5px; max-width: 879px; margin-bottom: 3px;" src="https://canvas.sussex.ac.uk/courses/3495/files/207012/download" alt="icons-forward.png" data-api-endpoint="https://canvas.sussex.ac.uk/api/v1/courses/3495/files/207012" data-api-returntype="File"> </a></div>
+</div>
+Sep 13, 2018 6:54:16 PM com.magic.sussex.canvasDataPour.ReadTemplate createPage
+INFO: Going to pour html code in Test1
+Sep 13, 2018 6:54:36 PM com.magic.sussex.canvasDataPour.ReadTemplate createPage
+INFO: Page Test1 created successfully
+Sep 13, 2018 6:54:36 PM com.magic.sussex.canvasDataPour.MainSussexPageCreation perform
+INFO: Execution completed please close the tool and restart it for next execution

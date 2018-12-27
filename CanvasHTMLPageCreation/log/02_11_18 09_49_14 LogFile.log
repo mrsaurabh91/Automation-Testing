@@ -1,0 +1,274 @@
+Nov 02, 2018 9:50:15 AM com.magic.sussex.gui.StartBrowserAndReadInput doInBackground
+INFO: Fetching number of pages from the the docx file. Please wait
+Nov 02, 2018 9:50:16 AM com.magic.util.WebDriverFactory getWebDriver
+INFO: Going to launch Web Browser.
+Nov 02, 2018 9:50:19 AM com.magic.util.WebDriverFactory getWebDriver
+INFO: Chrome Web Browser launched.
+Nov 02, 2018 9:50:20 AM com.magic.sussex.inputDetails.HtmlInputData getInputDocFileContentNew
+INFO: Fetching data from table 1
+Nov 02, 2018 9:50:26 AM com.magic.sussex.inputDetails.HtmlInputData getInputDocFileContentNew
+INFO: Fetching data from table 2
+Nov 02, 2018 9:50:38 AM com.magic.sussex.gui.GUI actionPerformed
+INFO: Submit button of page creation type Clicked
+Nov 02, 2018 9:50:38 AM com.magic.util.FileUtils createDirectory
+INFO: Folder already available so failed to create new folder!
+Nov 02, 2018 9:50:38 AM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Fetching asset details
+Nov 02, 2018 9:50:38 AM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Asset Name arrow-right.png and URL D:\AutomationProject\CanvasHTMLPageCreation\assets\image\arrow-right.png
+Nov 02, 2018 9:50:38 AM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Asset Name arrow-top-right.png and URL D:\AutomationProject\CanvasHTMLPageCreation\assets\image\arrow-top-right.png
+Nov 02, 2018 9:50:38 AM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Asset Name assignmentBrief_2x.jpg and URL D:\AutomationProject\CanvasHTMLPageCreation\assets\image\assignmentBrief_2x.jpg
+Nov 02, 2018 9:50:38 AM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Asset Name HomePageImage_2x.jpg and URL D:\AutomationProject\CanvasHTMLPageCreation\assets\image\HomePageImage_2x.jpg
+Nov 02, 2018 9:50:38 AM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Asset Name homepage_banner2x.jpg and URL D:\AutomationProject\CanvasHTMLPageCreation\assets\image\homepage_banner2x.jpg
+Nov 02, 2018 9:50:38 AM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Asset Name home_banner.jpg and URL D:\AutomationProject\CanvasHTMLPageCreation\assets\image\home_banner.jpg
+Nov 02, 2018 9:50:38 AM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Asset Name Icon_Examples.png and URL D:\AutomationProject\CanvasHTMLPageCreation\assets\image\Icon_Examples.png
+Nov 02, 2018 9:50:38 AM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Asset Name jitin.jpg and URL D:\AutomationProject\CanvasHTMLPageCreation\assets\image\jitin.jpg
+Nov 02, 2018 9:50:38 AM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Asset Name splash.png and URL D:\AutomationProject\CanvasHTMLPageCreation\assets\image\splash.png
+Nov 02, 2018 9:50:38 AM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Fetching asset information completed successfull.
+Nov 02, 2018 9:50:38 AM com.magic.sussex.canvasDataPour.ReadTemplate verifyImageDetailsAvailable
+INFO: Verifying required images available in application.
+Nov 02, 2018 9:50:38 AM com.magic.sussex.canvasDataPour.ReadTemplate verifyImageDetailsAvailable
+INFO: Table 1
+Nov 02, 2018 9:50:38 AM com.magic.sussex.canvasDataPour.ReadTemplate verifyImageDetailsAvailable
+INFO: Table 2
+Nov 02, 2018 9:50:38 AM com.magic.sussex.canvasDataPour.MainSussexPageCreation perform
+INFO: All images are available in application.
+Nov 02, 2018 9:50:38 AM com.magic.util.FileUtils createDirectory
+INFO: D:\AutomationProject\CanvasHTMLPageCreation\htmlPage\Test folder is created!
+Nov 02, 2018 9:50:38 AM com.magic.sussex.canvasDataPour.ReadTemplate redirectToAllPages
+INFO: Fetching the details of already created pages...
+Nov 02, 2018 9:50:38 AM com.magic.sussex.canvasDataPour.ReadTemplate redirectToAllPages
+INFO: Total count of already created pages 0
+Nov 02, 2018 9:50:38 AM com.magic.sussex.canvasDataPour.ReadTemplate redirectToAllPages
+INFO: Not found any already existing page.
+Nov 02, 2018 9:50:43 AM com.magic.sussex.canvasDataPour.ReadTemplate getInputAndPourContent
+INFO: Ingestion of data table wise is getting started 
+Nov 02, 2018 9:50:43 AM com.magic.sussex.canvasDataPour.ReadTemplate getInputAndPourContent
+INFO: Table 1
+Nov 02, 2018 9:50:43 AM com.magic.sussex.canvasDataPour.ReadTemplate getInputAndPourContent
+INFO: Template Home Page mentioned found in template folder
+Nov 02, 2018 9:50:43 AM com.magic.sussex.canvasDataPour.ReadTemplate getInputAndPourContent
+INFO: Page Title SaurabhTestDemo1
+Nov 02, 2018 9:50:43 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Reading template....
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Preparing final html to be ingested
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: InputKey IntroText
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Welcome to&nbsp;<strong style="font-weight: bold;">Global Marketing Management</strong><strong style="font-weight: bold;"> New Update</strong> successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Many organisations around the world consider some form of export or international activity to grow their business. Over the next few weeks you’ll learn the basics of global marketing management – whether to embark on this journey or not, and how to develop and implement an international marketing plan. successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Follow the learning journey and build a portfolio of work to complete a real-world assignment, your international marketing plan. successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: InputKey SectionBannerImage
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Your Brief successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.ReadTemplate imageSrc
+INFO: imageSrc
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.ReadTemplate imageSrc
+INFO: arrayList [src="", alt=""]
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.ReadTemplate getHTMLCodeAfterImageAltAndURL
+INFO: URL of Image  home_banner.jpg is D:\AutomationProject\CanvasHTMLPageCreation\assets\image\home_banner.jpg
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text home_banner.jpg successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: InputKey Tile_1
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Page Assignment brief not found so URL not entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Your assignment successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Your assignment successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text VIEW BRIEF successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: InputKey Tile_2
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Deciding to internationalise successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Page Week 1: Deciding to internationalise: Focus not found so URL not entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Deciding to internationalise successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text <strong style="font-weight: bold;">WEEK 1</strong><strong style="font-weight: bold;"> New</strong> successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: InputKey Tile_3
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Deciding on markets successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Page Week 2: Deciding on markets: Focus not found so URL not entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Deciding on markets successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text <strong style="font-weight: bold;">WEEK 2</strong> successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: InputKey Tile_4
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Market entry strategies successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Page Week 3: Market entry strategies: Focus not found so URL not entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Market entry strategies successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text <strong style="font-weight: bold;">WEEK 3</strong> successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: InputKey Tile_5
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Product and price successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Page Week 4: Product and price: Focus not found so URL not entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Product and price successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text <strong style="font-weight: bold;">WEEK 4</strong> successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: InputKey Tile_6
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Distribute and communicate successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Page Week 5: Distribute and communicate: Focus not found so URL not entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Distribute and communicate successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text <strong style="font-weight: bold;">WEEK 5</strong> successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: InputKey Tile_7
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Implementation and co-ordination successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Page Week 6: Implementation and co-ordination: Focus not found so URL not entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Implementation and co-ordination successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text <strong style="font-weight: bold;">WEEK 6</strong> successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: InputKey Syllabus
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Syllabus successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text For more detail, the module learning outcomes, and a detailed guide to the assessment and module activities. successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Check the syllabus successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text https://canvas.sussex.ac.uk/courses/3495/assignments/syllabus successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text <strong style="font-weight: bold;">GO TO SYLLABUS</strong> successfully entered in HTML code
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.ReadTemplate getInputAndPourContent
+INFO: Ready to create final html file
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.ReadTemplate getInputAndPourContent
+INFO: Final HTML Code of page SaurabhTestDemo1--> <div>
+<div id="IntroText">
+<p component="introtext1" style="font-size: 16px; color: #000; margin: 0px;">Welcome to&nbsp;<strong style="font-weight: bold;">Global Marketing Management</strong><strong style="font-weight: bold;"> New Update</strong></p>
+<p style="font-size: 16px; color: #000; margin: 0px;">&nbsp;</p>
+<p component="introtext2" style="font-size: 16px; color: #000; margin: 0;">Many organisations around the world consider some form of export or international activity to grow their business. Over the next few weeks you’ll learn the basics of global marketing management – whether to embark on this journey or not, and how to develop and implement an international marketing plan.</p>
+<p style="font-size: 16px; color: #000; margin: 0px;">&nbsp;</p>
+<p component="introtext3" style="font-size: 16px; color: #000; margin: 0 0 20px;">Follow the learning journey and build a portfolio of work to complete a real-world assignment, your international marketing plan.</p>
+</div>
+<p id="SectionBannerImage" style="margin: 0;"><a component="bannerlink" style="display: block; text-align: center;"> <img component="banner" style="display: block; width: 100%; height: auto; max-height: 100%; margin: 0px 0px 0px 0px;" src="D:\AutomationProject\CanvasHTMLPageCreation\assets\image\home_banner.jpg" alt="home_banner.jpg"> </a></p>
+
+<div style="text-align: center; width: 100%; padding: 20px 0 16px 0; position: relative; vertical-align: text-top; color: #614860; background-color: #f4f4f4;">
+<div id="Tile_1" style="width: 122px; height: 86px; text-align: center; display: inline-block; font-size: 14px; position: relative; border-top: 8px solid #11A5A1; padding: 21px 15px; font-family: 'arial'; background-color: #fff; margin-left: 10px; margin-right: 10px; margin-bottom: 20px;"><a component="link" style="text-decoration: none;" href=""> <span component="title1" style="color: #004259; font-family: Georgia; display: block; margin-bottom: 12px; position: relative; height: 41px;">Your assignment</span> <strong style="color: #fff; position: relative; display: block; left: 0px; font-size: 14px; font-weight: normal; padding: 2px; background-color: #cb1c41; height: 35px; margin: auto; top: 0px; line-height: 35px;"><span component="title2">VIEW BRIEF</span></strong> </a></div>
+<div id="Tile_2" style="width: 122px; height: 86px; text-align: center; display: inline-block; font-size: 14px; position: relative; border-top: 8px solid #4A364F; padding: 21px 15px; font-family: 'arial'; background-color: #fff; margin-left: 10px; margin-right: 10px; margin-bottom: 20px;"><a component="link" style="text-decoration: none;" title="Deciding to internationalise" href=""> <span component="title1" style="color: #004259; font-family: Georgia; display: block; margin-bottom: 20px; position: relative; height: 41px;">Deciding to internationalise</span> <strong style="color: #000; position: relative; display: block; left: 0px; font-size: 14px; font-weight: bold; font-family: 'arial';"><span component="title2"><strong style="font-weight: bold;">WEEK 1</strong><strong style="font-weight: bold;"> New</strong></span> </strong> </a></div>
+<div id="Tile_3" style="width: 122px; height: 86px; text-align: center; display: inline-block; font-size: 14px; position: relative; border-top: 8px solid #313473; padding: 21px 15px; font-family: 'arial'; background-color: #fff; margin-left: 10px; margin-right: 10px; margin-bottom: 20px;"><a component="link" style="text-decoration: none;" title="Deciding on markets" href=""> <span component="title1" style="color: #004259; font-family: Georgia; display: block; margin-bottom: 20px; position: relative; height: 41px;">Deciding on markets</span> <strong style="color: #000; position: relative; display: block; left: 0px; font-size: 14px; font-weight: bold; font-family: 'arial';"><span component="title2"><strong style="font-weight: bold;">WEEK 2</strong></span> </strong> </a></div>
+<div id="Tile_4" style="width: 122px; height: 86px; text-align: center; display: inline-block; font-size: 14px; position: relative; border-top: 8px solid #D1573F; padding: 21px 15px; font-family: 'arial'; background-color: #fff; margin-left: 10px; margin-right: 10px; margin-bottom: 20px;"><a component="link" style="text-decoration: none;" title="Market entry strategies" href=""> <span component="title1" style="color: #004259; font-family: Georgia; display: block; margin-bottom: 18px; position: relative; height: 43px;">Market entry strategies</span> <strong style="color: #000; font-size: 14px; font-weight: bold; font-family: 'arial';"><span component="title2"><strong style="font-weight: bold;">WEEK 3</strong></span></strong> </a></div>
+<div id="Tile_5" style="width: 122px; height: 86px; text-align: center; display: inline-block; font-size: 14px; position: relative; border-top: 8px solid #7FA1BD; padding: 21px 15px; font-family: 'arial'; background-color: #fff; margin-left: 10px; margin-right: 10px; margin-bottom: 20px;"><a component="link" style="text-decoration: none;" title="Product and price" href=""> <span component="title1" style="color: #004259; font-family: Georgia; display: block; margin-bottom: 20px; position: relative; height: 41px;">Product and price</span> <strong style="color: #000; position: relative; display: block; left: 0px; top: 0px; font-size: 14px; font-weight: bold; font-family: 'arial';"><span component="title2"><strong style="font-weight: bold;">WEEK 4</strong></span>  </strong> </a></div>
+<div id="Tile_6" style="width: 122px; height: 86px; text-align: center; display: inline-block; font-size: 14px; position: relative; border-top: 8px solid #DB71A2; padding: 21px 15px; font-family: 'arial'; background-color: #fff; margin-left: 10px; margin-right: 10px; margin-bottom: 20px;"><a component="link" style="text-decoration: none;" title="Distribute and communicate" href=""> <span component="title1" style="color: #004259; font-family: Georgia; display: block; margin-bottom: 18px; position: relative; height: 43px;">Distribute and communicate</span> <strong style="color: #000; font-size: 14px; font-weight: bold; font-family: 'arial';"><span component="title2"><strong style="font-weight: bold;">WEEK 5</strong></span> </strong> </a></div>
+<div id="Tile_7" style="width: 122px; height: 86px; text-align: center; display: inline-block; font-size: 14px; position: relative; border-top: 8px solid #507474; padding: 21px 15px; font-family: 'arial'; background-color: #fff; margin-left: 10px; margin-right: 10px; margin-bottom: 20px;"><a component="link" style="text-decoration: none;" title="Implementation and co-ordination" href=""> <span component="title1" style="color: #004259; font-family: Georgia; display: block; margin-bottom: 20px; position: relative; height: 41px;">Implementation and co-ordination</span> <strong style="color: #000; font-size: 14px; font-weight: bold; font-family: 'arial';"><span component="title2"><strong style="font-weight: bold;">WEEK 6</strong></span>  </strong> </a></div>
+
+</div>
+
+<div id="Syllabus" style="display: block; margin: 10px 0px; width: 100%; margin-bottom: 30px;">
+<h2 component="heading" style="color: #043b4a; margin: 0; font-size: 27px; font-family: 'baskerVille';">Syllabus</h2>
+<hr style="background-color: #043b4a; width: 100%; height: 5px; margin: 0 0 0px 0;">
+<div style="background-color: #f4f4f4; padding: 11px;">
+<p component="para" style="font-size: 14px; margin: 0; margin-left: 10px; font-family: arial; color: #000;">For more detail, the module learning outcomes, and a detailed guide to the assessment and module activities.</p>
+<div style="margin-top: 10px; margin-left: 10px;"><strong style="font-weight: bold;"> <a component="linksyllabus" style="color: #000000; font-family: arial; text-decoration: none; font-size: 14px;" title="Check the syllabus" href="https://canvas.sussex.ac.uk/courses/3495/assignments/syllabus" data-api-endpoint="https://canvas.sussex.ac.uk/courses/3495/assignments/syllabus" data-api-returntype="Page"><span component="titlesyllabus"><strong style="font-weight: bold;">GO TO SYLLABUS</strong></span>  </a> </strong></div>
+</div>
+</div></div>
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.ReadTemplate createHTMLPage
+INFO: HTML Page SaurabhTestDemo1 created successfully.
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.ReadTemplate getInputAndPourContent
+INFO: Table 2
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.ReadTemplate getInputAndPourContent
+INFO: Template Assignment Brief mentioned found in template folder
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.ReadTemplate getInputAndPourContent
+INFO: Page Title DemoTest2
+Nov 02, 2018 9:50:45 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Reading template....
+Nov 02, 2018 9:50:46 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Preparing final html to be ingested
+Nov 02, 2018 9:50:46 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: InputKey PageSection
+Nov 02, 2018 9:50:46 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Global Marketing Management successfully entered in HTML code
+Nov 02, 2018 9:50:46 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Page Global Marketing Management not found so URL not entered in HTML code
+Nov 02, 2018 9:50:46 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Global Marketing Management successfully entered in HTML code
+Nov 02, 2018 9:50:46 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Assignment brief successfully entered in HTML code
+Nov 02, 2018 9:50:46 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Page Team task not found so URL not entered in HTML code
+Nov 02, 2018 9:50:46 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Team task successfully entered in HTML code
+Nov 02, 2018 9:50:46 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: InputKey AssignmentVideo
+Nov 02, 2018 9:50:46 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text https://player.vimeo.com/video/284135289 successfully entered in HTML code
+Nov 02, 2018 9:50:46 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text https://canvas.sussex.ac.uk/courses/3495/files/241761/download?wrap=1 successfully entered in HTML code
+Nov 02, 2018 9:50:46 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text TRANSCRIPTS successfully entered in HTML code
+Nov 02, 2018 9:50:46 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: InputKey AssignmentContent
+Nov 02, 2018 9:50:46 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Your assignment in this module is to complete an international marketing plan. successfully entered in HTML code
+Nov 02, 2018 9:50:46 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Listen to your Module Lead René Moolenaar explain the steps involved, and how research and working in a team will help you build this plan. successfully entered in HTML code
+Nov 02, 2018 9:50:46 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text 2 min successfully entered in HTML code
+Nov 02, 2018 9:50:46 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text https://canvas.sussex.ac.uk/courses/3495/assignments successfully entered in HTML code
+Nov 02, 2018 9:50:46 AM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text ASSIGNMENT successfully entered in HTML code
+Nov 02, 2018 9:50:46 AM com.magic.sussex.canvasDataPour.ReadTemplate getInputAndPourContent
+INFO: Ready to create final html file
+Nov 02, 2018 9:50:46 AM com.magic.sussex.canvasDataPour.ReadTemplate getInputAndPourContent
+INFO: Final HTML Code of page DemoTest2--> <div>
+<div id="PageSection" style="display: block; margin-bottom: -5px; overflow: hidden; background: #f5f5f5; border-top: 4px solid #00afaa; height: 30px; padding-top: 6px; padding-left: 15px; position: relative; z-index: 9999;">
+<p style="display: inline;"><a component="pagetitle1" style="text-decoration: none; color: #000000; font-size: 14px; font-family: sans-serif; margin-left: 0px; display: inline-block;" title="" href=""><img component="page1" style="margin-bottom: 3px; margin-right: 10px; max-width: 989px;">Global Marketing Management</a></p>
+<ul style="float: right; list-style: none; margin: 0px; font-family: sans-serif; padding: 0px;">
+<li style="float: left; margin: 1px 15px;"><a component="pagetitle2" style="padding: 2px 4px; text-decoration: none; font-size: 14px; color: #00afaa; border-bottom: 3px solid #00afaa; display: inline-block; height: 21px;" href="#">Assignment brief</a></li>
+<li style="float: left; margin: 1px 15px;"><a component="pagetitle3" style="padding: 2px 4px; text-decoration: none; font-size: 14px; color: #000; display: inline-block; height: 21px; text-align: center;" href="">Team task</a></li>
+</ul>
+</div>
+<div style="width: 100%; margin: auto; margin-top: 20px;">
+<div id="AssignmentVideo" style="width: 300px; margin-bottom: 10px; float: left;"><iframe component="video" style="width: 300px; height: 250px; position: relative; top: 0px;" src="https://player.vimeo.com/video/284135289"></iframe>
+<div style="background: #cb1c41;width: 300px;position: relative;top: 0;z-index: 9999;border: 2px solid transparent;margin-top: 10px;"><a component="transcripts" style="color: #ffffff; text-decoration: none; font-family: sans-serif; font-size: 14px; line-height: 30px; display: block; padding: 5px 10px; text-align: center;" href="https://canvas.sussex.ac.uk/courses/3495/files/241761/download?wrap=1"><span component="transcriptstxt">TRANSCRIPTS</span>  </a></div>
+</div>
+<div id="AssignmentContent" style="font-size: 14px; color: #000000; background-color: #f4f4f4; border-top: 7px solid #55365B; margin-left: 310px; min-height: 275px; position: relative; padding: 16px 20px 10px 20px;">
+<p style="margin: 0; padding: 0px 10px 0px 0px;"><span component="assignmentdis1" style="font-family: arial; font-size: 14px; color: #000;">Your assignment in this module is to complete an international marketing plan.</span></p>
+<p style="margin: 0; padding: 0px 10px 0px 0px;"><span component="assignmentdis2" style="font-family: arial; font-size: 14px; color: #000;">Listen to your Module Lead René Moolenaar explain the steps involved, and how research and working in a team will help you build this plan.</span></p>
+<div style="overflow: hidden; margin-top: 75px;"><span component="assignmenttime" style="float: left; color: #767676; font-family: sans-serif; font-size: 16px; margin-top: 10px;">2 min</span>
+<div style="float: right; background: #cb1c41;"><a component="assignmentlink" style="color: #ffffff; text-decoration: none; font-family: sans-serif; font-size: 14px; padding: 10px 10px; display: block;" href="https://canvas.sussex.ac.uk/courses/3495/assignments" target="_blank" rel=""><span component="assignmenttitle">ASSIGNMENT</span> </a></div>
+</div>
+</div>
+</div>
+</div>
+Nov 02, 2018 9:50:46 AM com.magic.sussex.canvasDataPour.ReadTemplate createHTMLPage
+INFO: HTML Page DemoTest2 created successfully.
+Nov 02, 2018 9:50:46 AM com.magic.sussex.canvasDataPour.MainSussexPageCreation perform
+INFO: Execution completed, press reset button for next execution.
+Nov 02, 2018 9:54:22 AM com.magic.sussex.gui.GUI$1 windowClosing
+INFO: Closing the application

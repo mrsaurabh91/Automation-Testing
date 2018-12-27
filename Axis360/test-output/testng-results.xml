@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="10" ignored="8" total="78" passed="60">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="542069" started-at="2018-11-29T11:46:51Z" finished-at="2018-11-29T11:55:53Z">
+    <groups>
+    </groups>
+    <test name="TestForWindowChrome" duration-ms="263155" started-at="2018-11-29T11:46:51Z" finished-at="2018-11-29T11:51:14Z">
+      <class name="com.magic.axis360.testscript.SearchBoxTestIT">
+        <test-method status="PASS" signature="verifySearchBox(java.lang.String)[pri:2, instance:com.magic.axis360.testscript.SearchBoxTestIT@5bcab519]" name="verifySearchBox" duration-ms="28166" started-at="2018-11-29T11:47:22Z" finished-at="2018-11-29T11:47:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBox -->
+        <test-method status="PASS" signature="verifySearchBoxNotPreFilled()[pri:3, instance:com.magic.axis360.testscript.SearchBoxTestIT@5bcab519]" name="verifySearchBoxNotPreFilled" duration-ms="39" started-at="2018-11-29T11:47:51Z" finished-at="2018-11-29T11:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBoxNotPreFilled -->
+        <test-method status="PASS" signature="verifyAlphaNumericCharacterInSearchBox(java.lang.String)[pri:4, instance:com.magic.axis360.testscript.SearchBoxTestIT@5bcab519]" name="verifyAlphaNumericCharacterInSearchBox" duration-ms="386" started-at="2018-11-29T11:47:51Z" finished-at="2018-11-29T11:47:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testing Search Box 123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAlphaNumericCharacterInSearchBox -->
+        <test-method status="PASS" signature="verifySearchForTitleByKeyword(java.lang.String)[pri:5, instance:com.magic.axis360.testscript.SearchBoxTestIT@5bcab519]" name="verifySearchForTitleByKeyword" duration-ms="2637" started-at="2018-11-29T11:47:51Z" finished-at="2018-11-29T11:47:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dog]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchForTitleByKeyword -->
+        <test-method status="PASS" signature="verifyRefineButtonPresenceForKeywordTest()[pri:6, instance:com.magic.axis360.testscript.SearchBoxTestIT@5bcab519]" name="verifyRefineButtonPresenceForKeywordTest" duration-ms="31" started-at="2018-11-29T11:47:54Z" finished-at="2018-11-29T11:47:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefineButtonPresenceForKeywordTest -->
+        <test-method status="FAIL" signature="verifyKeywordRetentionInSearchBoxForKeywordTest(java.lang.String)[pri:7, instance:com.magic.axis360.testscript.SearchBoxTestIT@5bcab519]" name="verifyKeywordRetentionInSearchBoxForKeywordTest" duration-ms="26" started-at="2018-11-29T11:47:54Z" finished-at="2018-11-29T11:47:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dog]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at com.magic.axis360.testscript.SearchBoxTestIT.verifyKeywordRetentionInSearchBoxForKeywordTest(SearchBoxTestIT.java:87)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyKeywordRetentionInSearchBoxForKeywordTest -->
+        <test-method status="PASS" signature="verifySearchedMessageSearchForTitleByKeyword(java.lang.String)[pri:8, instance:com.magic.axis360.testscript.SearchBoxTestIT@5bcab519]" name="verifySearchedMessageSearchForTitleByKeyword" duration-ms="5175" started-at="2018-11-29T11:47:54Z" finished-at="2018-11-29T11:47:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dog]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchedMessageSearchForTitleByKeyword -->
+        <test-method status="PASS" signature="verifySearchForTitleByTitle(java.lang.String)[pri:9, instance:com.magic.axis360.testscript.SearchBoxTestIT@5bcab519]" name="verifySearchForTitleByTitle" duration-ms="2019" started-at="2018-11-29T11:47:59Z" finished-at="2018-11-29T11:48:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Love That Dog]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchForTitleByTitle -->
+        <test-method status="PASS" signature="verifyRefineButtonPresenceForTitleTest()[pri:10, instance:com.magic.axis360.testscript.SearchBoxTestIT@5bcab519]" name="verifyRefineButtonPresenceForTitleTest" duration-ms="18" started-at="2018-11-29T11:48:01Z" finished-at="2018-11-29T11:48:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefineButtonPresenceForTitleTest -->
+        <test-method status="FAIL" signature="verifyKeywordRetentionInSearchBoxForTitleByTitle(java.lang.String)[pri:11, instance:com.magic.axis360.testscript.SearchBoxTestIT@5bcab519]" name="verifyKeywordRetentionInSearchBoxForTitleByTitle" duration-ms="24" started-at="2018-11-29T11:48:01Z" finished-at="2018-11-29T11:48:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Love That Dog]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at com.magic.axis360.testscript.SearchBoxTestIT.verifyKeywordRetentionInSearchBoxForTitleByTitle(SearchBoxTestIT.java:132)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyKeywordRetentionInSearchBoxForTitleByTitle -->
+        <test-method status="PASS" signature="verifySearchedMessageSearchForTitleByTitle(java.lang.String)[pri:12, instance:com.magic.axis360.testscript.SearchBoxTestIT@5bcab519]" name="verifySearchedMessageSearchForTitleByTitle" duration-ms="5150" started-at="2018-11-29T11:48:01Z" finished-at="2018-11-29T11:48:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Love That Dog]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchedMessageSearchForTitleByTitle -->
+        <test-method status="PASS" signature="veriySearchForTitleByAuthor(java.lang.String)[pri:13, instance:com.magic.axis360.testscript.SearchBoxTestIT@5bcab519]" name="veriySearchForTitleByAuthor" duration-ms="2231" started-at="2018-11-29T11:48:06Z" finished-at="2018-11-29T11:48:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gygi, Craig]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- veriySearchForTitleByAuthor -->
+        <test-method status="PASS" signature="verifyRefineButtonPresenceForAuthorTest()[pri:14, instance:com.magic.axis360.testscript.SearchBoxTestIT@5bcab519]" name="verifyRefineButtonPresenceForAuthorTest" duration-ms="24" started-at="2018-11-29T11:48:08Z" finished-at="2018-11-29T11:48:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefineButtonPresenceForAuthorTest -->
+        <test-method status="FAIL" signature="verifyKeywordRetentionInSearchBoxForAuthorTest(java.lang.String)[pri:15, instance:com.magic.axis360.testscript.SearchBoxTestIT@5bcab519]" name="verifyKeywordRetentionInSearchBoxForAuthorTest" duration-ms="28" started-at="2018-11-29T11:48:08Z" finished-at="2018-11-29T11:48:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gygi, Craig]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at com.magic.axis360.testscript.SearchBoxTestIT.verifyKeywordRetentionInSearchBoxForAuthorTest(SearchBoxTestIT.java:176)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyKeywordRetentionInSearchBoxForAuthorTest -->
+        <test-method status="PASS" signature="verifySearchedMessageSearchForTitleByAuthor(java.lang.String)[pri:16, instance:com.magic.axis360.testscript.SearchBoxTestIT@5bcab519]" name="verifySearchedMessageSearchForTitleByAuthor" duration-ms="5150" started-at="2018-11-29T11:48:08Z" finished-at="2018-11-29T11:48:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gygi, Craig]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchedMessageSearchForTitleByAuthor -->
+        <test-method status="PASS" signature="verifySearchForTitleByISBN(java.lang.String)[pri:17, instance:com.magic.axis360.testscript.SearchBoxTestIT@5bcab519]" name="verifySearchForTitleByISBN" duration-ms="51965" started-at="2018-11-29T11:48:14Z" finished-at="2018-11-29T11:49:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9781615730537]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchForTitleByISBN -->
+        <test-method status="PASS" signature="verifyRefineButtonPresenceForTitleByISBN()[pri:18, instance:com.magic.axis360.testscript.SearchBoxTestIT@5bcab519]" name="verifyRefineButtonPresenceForTitleByISBN" duration-ms="33" started-at="2018-11-29T11:49:06Z" finished-at="2018-11-29T11:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefineButtonPresenceForTitleByISBN -->
+        <test-method status="FAIL" signature="verifyKeywordRetentionInSearchBoxForTitleByISBN(java.lang.String)[pri:19, instance:com.magic.axis360.testscript.SearchBoxTestIT@5bcab519]" name="verifyKeywordRetentionInSearchBoxForTitleByISBN" duration-ms="37" started-at="2018-11-29T11:49:06Z" finished-at="2018-11-29T11:49:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9781615730537]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at com.magic.axis360.testscript.SearchBoxTestIT.verifyKeywordRetentionInSearchBoxForTitleByISBN(SearchBoxTestIT.java:221)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyKeywordRetentionInSearchBoxForTitleByISBN -->
+        <test-method status="PASS" signature="verifySearchedMessageSearchForTitleByISBN(java.lang.String)[pri:20, instance:com.magic.axis360.testscript.SearchBoxTestIT@5bcab519]" name="verifySearchedMessageSearchForTitleByISBN" duration-ms="5149" started-at="2018-11-29T11:49:06Z" finished-at="2018-11-29T11:49:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9781615730537]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchedMessageSearchForTitleByISBN -->
+        <test-method status="PASS" signature="verifySearchForTitleByPublisher(java.lang.String)[pri:21, instance:com.magic.axis360.testscript.SearchBoxTestIT@5bcab519]" name="verifySearchForTitleByPublisher" duration-ms="4488" started-at="2018-11-29T11:49:11Z" finished-at="2018-11-29T11:49:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nonfiction]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchForTitleByPublisher -->
+        <test-method status="PASS" signature="verifyRefineButtonPresenceForTitleByPublisher()[pri:22, instance:com.magic.axis360.testscript.SearchBoxTestIT@5bcab519]" name="verifyRefineButtonPresenceForTitleByPublisher" duration-ms="20" started-at="2018-11-29T11:49:15Z" finished-at="2018-11-29T11:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefineButtonPresenceForTitleByPublisher -->
+        <test-method status="FAIL" signature="verifyKeywordRetentionInSearchBoxForTitleByPublisher(java.lang.String)[pri:23, instance:com.magic.axis360.testscript.SearchBoxTestIT@5bcab519]" name="verifyKeywordRetentionInSearchBoxForTitleByPublisher" duration-ms="24" started-at="2018-11-29T11:49:15Z" finished-at="2018-11-29T11:49:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nonfiction]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at com.magic.axis360.testscript.SearchBoxTestIT.verifyKeywordRetentionInSearchBoxForTitleByPublisher(SearchBoxTestIT.java:266)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyKeywordRetentionInSearchBoxForTitleByPublisher -->
+        <test-method status="PASS" signature="verifySearchedMessageSearchForTitleByPublisher(java.lang.String)[pri:24, instance:com.magic.axis360.testscript.SearchBoxTestIT@5bcab519]" name="verifySearchedMessageSearchForTitleByPublisher" duration-ms="23638" started-at="2018-11-29T11:49:15Z" finished-at="2018-11-29T11:49:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nonfiction]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchedMessageSearchForTitleByPublisher -->
+        <test-method status="PASS" signature="closeBrowserAterClassExecuted()[pri:0, instance:com.magic.axis360.testscript.SearchBoxTestIT@5bcab519]" name="closeBrowserAterClassExecuted" is-config="true" duration-ms="683" started-at="2018-11-29T11:49:39Z" finished-at="2018-11-29T11:49:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserAterClassExecuted -->
+      </class> <!-- com.magic.axis360.testscript.SearchBoxTestIT -->
+      <class name="com.magic.axis360.testscript.AdvancedSearchBoxTestIT">
+        <test-method status="PASS" signature="verifyAdvanceSearchButton(java.lang.String)[pri:25, instance:com.magic.axis360.testscript.AdvancedSearchBoxTestIT@e45f292]" name="verifyAdvanceSearchButton" duration-ms="29659" started-at="2018-11-29T11:49:40Z" finished-at="2018-11-29T11:50:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdvanceSearchButton -->
+        <test-method status="PASS" signature="verifyAdvanceSearchOptionAfterClickOnAdvanceSearch()[pri:26, instance:com.magic.axis360.testscript.AdvancedSearchBoxTestIT@e45f292]" name="verifyAdvanceSearchOptionAfterClickOnAdvanceSearch" duration-ms="5215" started-at="2018-11-29T11:50:09Z" finished-at="2018-11-29T11:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdvanceSearchOptionAfterClickOnAdvanceSearch -->
+        <test-method status="PASS" signature="verifyRadioButtonWithFieldALLAtAdvanceSearchButton()[pri:27, instance:com.magic.axis360.testscript.AdvancedSearchBoxTestIT@e45f292]" name="verifyRadioButtonWithFieldALLAtAdvanceSearchButton" duration-ms="64" started-at="2018-11-29T11:50:15Z" finished-at="2018-11-29T11:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRadioButtonWithFieldALLAtAdvanceSearchButton -->
+        <test-method status="PASS" signature="verifyRadioButtonWithFieldALLSelectedByDefaultAtAdvanceSearchButton()[pri:28, instance:com.magic.axis360.testscript.AdvancedSearchBoxTestIT@e45f292]" name="verifyRadioButtonWithFieldALLSelectedByDefaultAtAdvanceSearchButton" duration-ms="54" started-at="2018-11-29T11:50:15Z" finished-at="2018-11-29T11:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRadioButtonWithFieldALLSelectedByDefaultAtAdvanceSearchButton -->
+        <test-method status="PASS" signature="verifyRadioButtonWithFieldTITLEAtAdvanceSearchButton()[pri:29, instance:com.magic.axis360.testscript.AdvancedSearchBoxTestIT@e45f292]" name="verifyRadioButtonWithFieldTITLEAtAdvanceSearchButton" duration-ms="62" started-at="2018-11-29T11:50:15Z" finished-at="2018-11-29T11:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRadioButtonWithFieldTITLEAtAdvanceSearchButton -->
+        <test-method status="PASS" signature="verifyRadioButtonWithFieldTITLEAtAUTHORSearchButton()[pri:30, instance:com.magic.axis360.testscript.AdvancedSearchBoxTestIT@e45f292]" name="verifyRadioButtonWithFieldTITLEAtAUTHORSearchButton" duration-ms="150" started-at="2018-11-29T11:50:15Z" finished-at="2018-11-29T11:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRadioButtonWithFieldTITLEAtAUTHORSearchButton -->
+        <test-method status="PASS" signature="verifyRadioButtonWithFieldISBNAtAuthorSearchButton()[pri:31, instance:com.magic.axis360.testscript.AdvancedSearchBoxTestIT@e45f292]" name="verifyRadioButtonWithFieldISBNAtAuthorSearchButton" duration-ms="65" started-at="2018-11-29T11:50:15Z" finished-at="2018-11-29T11:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRadioButtonWithFieldISBNAtAuthorSearchButton -->
+        <test-method status="PASS" signature="verifySearchForTitleByKeywordAtAdvanceSearch(java.lang.String)[pri:32, instance:com.magic.axis360.testscript.AdvancedSearchBoxTestIT@e45f292]" name="verifySearchForTitleByKeywordAtAdvanceSearch" duration-ms="2110" started-at="2018-11-29T11:50:15Z" finished-at="2018-11-29T11:50:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dog]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchForTitleByKeywordAtAdvanceSearch -->
+        <test-method status="PASS" signature="verifySearchForTitleByTitleAtAdvanceSearch(java.lang.String)[pri:33, instance:com.magic.axis360.testscript.AdvancedSearchBoxTestIT@e45f292]" name="verifySearchForTitleByTitleAtAdvanceSearch" duration-ms="1999" started-at="2018-11-29T11:50:17Z" finished-at="2018-11-29T11:50:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Love That Dog]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchForTitleByTitleAtAdvanceSearch -->
+        <test-method status="PASS" signature="veriySearchForTitleByAuthorAtAdvanceSearch(java.lang.String)[pri:34, instance:com.magic.axis360.testscript.AdvancedSearchBoxTestIT@e45f292]" name="veriySearchForTitleByAuthorAtAdvanceSearch" duration-ms="1968" started-at="2018-11-29T11:50:19Z" finished-at="2018-11-29T11:50:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gygi, Craig]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- veriySearchForTitleByAuthorAtAdvanceSearch -->
+        <test-method status="PASS" signature="verifySearchForTitleByISBNAtAdvanceSearchAtAdvanceSearch(java.lang.String)[pri:35, instance:com.magic.axis360.testscript.AdvancedSearchBoxTestIT@e45f292]" name="verifySearchForTitleByISBNAtAdvanceSearchAtAdvanceSearch" duration-ms="52258" started-at="2018-11-29T11:50:21Z" finished-at="2018-11-29T11:51:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9781615730537]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchForTitleByISBNAtAdvanceSearchAtAdvanceSearch -->
+        <test-method status="PASS" signature="closeBrowserAterClassExecuted()[pri:0, instance:com.magic.axis360.testscript.AdvancedSearchBoxTestIT@e45f292]" name="closeBrowserAterClassExecuted" is-config="true" duration-ms="665" started-at="2018-11-29T11:51:13Z" finished-at="2018-11-29T11:51:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserAterClassExecuted -->
+      </class> <!-- com.magic.axis360.testscript.AdvancedSearchBoxTestIT -->
+      <class name="com.magic.axis360.testscript.LoginTestIT">
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String)[pri:1, instance:com.magic.axis360.testscript.LoginTestIT@6fd02e5]" name="verifyLogin" duration-ms="30852" started-at="2018-11-29T11:46:51Z" finished-at="2018-11-29T11:47:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Welcome, Saurabh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="closeBrowserAterClassExecuted()[pri:0, instance:com.magic.axis360.testscript.LoginTestIT@6fd02e5]" name="closeBrowserAterClassExecuted" is-config="true" duration-ms="735" started-at="2018-11-29T11:47:22Z" finished-at="2018-11-29T11:47:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserAterClassExecuted -->
+      </class> <!-- com.magic.axis360.testscript.LoginTestIT -->
+    </test> <!-- TestForWindowChrome -->
+    <test name="TestForAndroidChrome" duration-ms="542069" started-at="2018-11-29T11:46:51Z" finished-at="2018-11-29T11:55:53Z">
+      <class name="com.magic.axis360.testscript.SearchBoxTestIT">
+        <test-method status="PASS" signature="verifySearchBox(java.lang.String)[pri:2, instance:com.magic.axis360.testscript.SearchBoxTestIT@1e127982]" name="verifySearchBox" duration-ms="75632" started-at="2018-11-29T11:48:08Z" finished-at="2018-11-29T11:49:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBox -->
+        <test-method status="PASS" signature="verifySearchBoxNotPreFilled()[pri:3, instance:com.magic.axis360.testscript.SearchBoxTestIT@1e127982]" name="verifySearchBoxNotPreFilled" duration-ms="8331" started-at="2018-11-29T11:49:23Z" finished-at="2018-11-29T11:49:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBoxNotPreFilled -->
+        <test-method status="PASS" signature="verifyAlphaNumericCharacterInSearchBox(java.lang.String)[pri:4, instance:com.magic.axis360.testscript.SearchBoxTestIT@1e127982]" name="verifyAlphaNumericCharacterInSearchBox" duration-ms="15140" started-at="2018-11-29T11:49:31Z" finished-at="2018-11-29T11:49:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testing Search Box 123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAlphaNumericCharacterInSearchBox -->
+        <test-method status="PASS" signature="verifySearchForTitleByKeyword(java.lang.String)[pri:5, instance:com.magic.axis360.testscript.SearchBoxTestIT@1e127982]" name="verifySearchForTitleByKeyword" duration-ms="12338" started-at="2018-11-29T11:49:47Z" finished-at="2018-11-29T11:49:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dog]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchForTitleByKeyword -->
+        <test-method status="PASS" signature="verifyRefineButtonPresenceForKeywordTest()[pri:6, instance:com.magic.axis360.testscript.SearchBoxTestIT@1e127982]" name="verifyRefineButtonPresenceForKeywordTest" duration-ms="316" started-at="2018-11-29T11:49:59Z" finished-at="2018-11-29T11:49:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefineButtonPresenceForKeywordTest -->
+        <test-method status="FAIL" signature="verifyKeywordRetentionInSearchBoxForKeywordTest(java.lang.String)[pri:7, instance:com.magic.axis360.testscript.SearchBoxTestIT@1e127982]" name="verifyKeywordRetentionInSearchBoxForKeywordTest" duration-ms="300" started-at="2018-11-29T11:49:59Z" finished-at="2018-11-29T11:50:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dog]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at com.magic.axis360.testscript.SearchBoxTestIT.verifyKeywordRetentionInSearchBoxForKeywordTest(SearchBoxTestIT.java:87)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyKeywordRetentionInSearchBoxForKeywordTest -->
+        <test-method status="PASS" signature="verifySearchedMessageSearchForTitleByKeyword(java.lang.String)[pri:8, instance:com.magic.axis360.testscript.SearchBoxTestIT@1e127982]" name="verifySearchedMessageSearchForTitleByKeyword" duration-ms="7229" started-at="2018-11-29T11:50:00Z" finished-at="2018-11-29T11:50:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dog]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchedMessageSearchForTitleByKeyword -->
+        <test-method status="PASS" signature="verifySearchForTitleByTitle(java.lang.String)[pri:9, instance:com.magic.axis360.testscript.SearchBoxTestIT@1e127982]" name="verifySearchForTitleByTitle" duration-ms="8148" started-at="2018-11-29T11:50:07Z" finished-at="2018-11-29T11:50:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Love That Dog]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchForTitleByTitle -->
+        <test-method status="PASS" signature="verifyRefineButtonPresenceForTitleTest()[pri:10, instance:com.magic.axis360.testscript.SearchBoxTestIT@1e127982]" name="verifyRefineButtonPresenceForTitleTest" duration-ms="203" started-at="2018-11-29T11:50:15Z" finished-at="2018-11-29T11:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefineButtonPresenceForTitleTest -->
+        <test-method status="FAIL" signature="verifyKeywordRetentionInSearchBoxForTitleByTitle(java.lang.String)[pri:11, instance:com.magic.axis360.testscript.SearchBoxTestIT@1e127982]" name="verifyKeywordRetentionInSearchBoxForTitleByTitle" duration-ms="329" started-at="2018-11-29T11:50:15Z" finished-at="2018-11-29T11:50:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Love That Dog]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at com.magic.axis360.testscript.SearchBoxTestIT.verifyKeywordRetentionInSearchBoxForTitleByTitle(SearchBoxTestIT.java:132)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyKeywordRetentionInSearchBoxForTitleByTitle -->
+        <test-method status="PASS" signature="verifySearchedMessageSearchForTitleByTitle(java.lang.String)[pri:12, instance:com.magic.axis360.testscript.SearchBoxTestIT@1e127982]" name="verifySearchedMessageSearchForTitleByTitle" duration-ms="6632" started-at="2018-11-29T11:50:16Z" finished-at="2018-11-29T11:50:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Love That Dog]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchedMessageSearchForTitleByTitle -->
+        <test-method status="PASS" signature="veriySearchForTitleByAuthor(java.lang.String)[pri:13, instance:com.magic.axis360.testscript.SearchBoxTestIT@1e127982]" name="veriySearchForTitleByAuthor" duration-ms="8134" started-at="2018-11-29T11:50:22Z" finished-at="2018-11-29T11:50:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gygi, Craig]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- veriySearchForTitleByAuthor -->
+        <test-method status="PASS" signature="verifyRefineButtonPresenceForAuthorTest()[pri:14, instance:com.magic.axis360.testscript.SearchBoxTestIT@1e127982]" name="verifyRefineButtonPresenceForAuthorTest" duration-ms="205" started-at="2018-11-29T11:50:30Z" finished-at="2018-11-29T11:50:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefineButtonPresenceForAuthorTest -->
+        <test-method status="FAIL" signature="verifyKeywordRetentionInSearchBoxForAuthorTest(java.lang.String)[pri:15, instance:com.magic.axis360.testscript.SearchBoxTestIT@1e127982]" name="verifyKeywordRetentionInSearchBoxForAuthorTest" duration-ms="258" started-at="2018-11-29T11:50:30Z" finished-at="2018-11-29T11:50:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gygi, Craig]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at com.magic.axis360.testscript.SearchBoxTestIT.verifyKeywordRetentionInSearchBoxForAuthorTest(SearchBoxTestIT.java:176)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyKeywordRetentionInSearchBoxForAuthorTest -->
+        <test-method status="PASS" signature="verifySearchedMessageSearchForTitleByAuthor(java.lang.String)[pri:16, instance:com.magic.axis360.testscript.SearchBoxTestIT@1e127982]" name="verifySearchedMessageSearchForTitleByAuthor" duration-ms="6487" started-at="2018-11-29T11:50:31Z" finished-at="2018-11-29T11:50:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gygi, Craig]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchedMessageSearchForTitleByAuthor -->
+        <test-method status="PASS" signature="verifySearchForTitleByISBN(java.lang.String)[pri:17, instance:com.magic.axis360.testscript.SearchBoxTestIT@1e127982]" name="verifySearchForTitleByISBN" duration-ms="57673" started-at="2018-11-29T11:50:37Z" finished-at="2018-11-29T11:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9781615730537]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchForTitleByISBN -->
+        <test-method status="PASS" signature="verifyRefineButtonPresenceForTitleByISBN()[pri:18, instance:com.magic.axis360.testscript.SearchBoxTestIT@1e127982]" name="verifyRefineButtonPresenceForTitleByISBN" duration-ms="217" started-at="2018-11-29T11:51:35Z" finished-at="2018-11-29T11:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefineButtonPresenceForTitleByISBN -->
+        <test-method status="FAIL" signature="verifyKeywordRetentionInSearchBoxForTitleByISBN(java.lang.String)[pri:19, instance:com.magic.axis360.testscript.SearchBoxTestIT@1e127982]" name="verifyKeywordRetentionInSearchBoxForTitleByISBN" duration-ms="351" started-at="2018-11-29T11:51:35Z" finished-at="2018-11-29T11:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9781615730537]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at com.magic.axis360.testscript.SearchBoxTestIT.verifyKeywordRetentionInSearchBoxForTitleByISBN(SearchBoxTestIT.java:221)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyKeywordRetentionInSearchBoxForTitleByISBN -->
+        <test-method status="PASS" signature="verifySearchedMessageSearchForTitleByISBN(java.lang.String)[pri:20, instance:com.magic.axis360.testscript.SearchBoxTestIT@1e127982]" name="verifySearchedMessageSearchForTitleByISBN" duration-ms="6537" started-at="2018-11-29T11:51:35Z" finished-at="2018-11-29T11:51:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9781615730537]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchedMessageSearchForTitleByISBN -->
+        <test-method status="PASS" signature="verifySearchForTitleByPublisher(java.lang.String)[pri:21, instance:com.magic.axis360.testscript.SearchBoxTestIT@1e127982]" name="verifySearchForTitleByPublisher" duration-ms="9939" started-at="2018-11-29T11:51:42Z" finished-at="2018-11-29T11:51:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nonfiction]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchForTitleByPublisher -->
+        <test-method status="PASS" signature="verifyRefineButtonPresenceForTitleByPublisher()[pri:22, instance:com.magic.axis360.testscript.SearchBoxTestIT@1e127982]" name="verifyRefineButtonPresenceForTitleByPublisher" duration-ms="230" started-at="2018-11-29T11:51:52Z" finished-at="2018-11-29T11:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefineButtonPresenceForTitleByPublisher -->
+        <test-method status="FAIL" signature="verifyKeywordRetentionInSearchBoxForTitleByPublisher(java.lang.String)[pri:23, instance:com.magic.axis360.testscript.SearchBoxTestIT@1e127982]" name="verifyKeywordRetentionInSearchBoxForTitleByPublisher" duration-ms="247" started-at="2018-11-29T11:51:52Z" finished-at="2018-11-29T11:51:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nonfiction]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at com.magic.axis360.testscript.SearchBoxTestIT.verifyKeywordRetentionInSearchBoxForTitleByPublisher(SearchBoxTestIT.java:266)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyKeywordRetentionInSearchBoxForTitleByPublisher -->
+        <test-method status="PASS" signature="verifySearchedMessageSearchForTitleByPublisher(java.lang.String)[pri:24, instance:com.magic.axis360.testscript.SearchBoxTestIT@1e127982]" name="verifySearchedMessageSearchForTitleByPublisher" duration-ms="43383" started-at="2018-11-29T11:51:52Z" finished-at="2018-11-29T11:52:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nonfiction]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchedMessageSearchForTitleByPublisher -->
+        <test-method status="PASS" signature="closeBrowserAterClassExecuted()[pri:0, instance:com.magic.axis360.testscript.SearchBoxTestIT@1e127982]" name="closeBrowserAterClassExecuted" is-config="true" duration-ms="4577" started-at="2018-11-29T11:52:36Z" finished-at="2018-11-29T11:52:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserAterClassExecuted -->
+      </class> <!-- com.magic.axis360.testscript.SearchBoxTestIT -->
+      <class name="com.magic.axis360.testscript.AdvancedSearchBoxTestIT">
+        <test-method status="PASS" signature="verifyAdvanceSearchButton(java.lang.String)[pri:25, instance:com.magic.axis360.testscript.AdvancedSearchBoxTestIT@60c6f5b]" name="verifyAdvanceSearchButton" duration-ms="77343" started-at="2018-11-29T11:52:40Z" finished-at="2018-11-29T11:53:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdvanceSearchButton -->
+        <test-method status="PASS" signature="verifyAdvanceSearchOptionAfterClickOnAdvanceSearch()[pri:26, instance:com.magic.axis360.testscript.AdvancedSearchBoxTestIT@60c6f5b]" name="verifyAdvanceSearchOptionAfterClickOnAdvanceSearch" duration-ms="16057" started-at="2018-11-29T11:53:58Z" finished-at="2018-11-29T11:54:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdvanceSearchOptionAfterClickOnAdvanceSearch -->
+        <test-method status="PASS" signature="verifyRadioButtonWithFieldALLAtAdvanceSearchButton()[pri:27, instance:com.magic.axis360.testscript.AdvancedSearchBoxTestIT@60c6f5b]" name="verifyRadioButtonWithFieldALLAtAdvanceSearchButton" duration-ms="586" started-at="2018-11-29T11:54:14Z" finished-at="2018-11-29T11:54:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRadioButtonWithFieldALLAtAdvanceSearchButton -->
+        <test-method status="PASS" signature="verifyRadioButtonWithFieldALLSelectedByDefaultAtAdvanceSearchButton()[pri:28, instance:com.magic.axis360.testscript.AdvancedSearchBoxTestIT@60c6f5b]" name="verifyRadioButtonWithFieldALLSelectedByDefaultAtAdvanceSearchButton" duration-ms="385" started-at="2018-11-29T11:54:14Z" finished-at="2018-11-29T11:54:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRadioButtonWithFieldALLSelectedByDefaultAtAdvanceSearchButton -->
+        <test-method status="PASS" signature="verifyRadioButtonWithFieldTITLEAtAdvanceSearchButton()[pri:29, instance:com.magic.axis360.testscript.AdvancedSearchBoxTestIT@60c6f5b]" name="verifyRadioButtonWithFieldTITLEAtAdvanceSearchButton" duration-ms="424" started-at="2018-11-29T11:54:15Z" finished-at="2018-11-29T11:54:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRadioButtonWithFieldTITLEAtAdvanceSearchButton -->
+        <test-method status="PASS" signature="verifyRadioButtonWithFieldTITLEAtAUTHORSearchButton()[pri:30, instance:com.magic.axis360.testscript.AdvancedSearchBoxTestIT@60c6f5b]" name="verifyRadioButtonWithFieldTITLEAtAUTHORSearchButton" duration-ms="584" started-at="2018-11-29T11:54:15Z" finished-at="2018-11-29T11:54:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRadioButtonWithFieldTITLEAtAUTHORSearchButton -->
+        <test-method status="PASS" signature="verifyRadioButtonWithFieldISBNAtAuthorSearchButton()[pri:31, instance:com.magic.axis360.testscript.AdvancedSearchBoxTestIT@60c6f5b]" name="verifyRadioButtonWithFieldISBNAtAuthorSearchButton" duration-ms="647" started-at="2018-11-29T11:54:16Z" finished-at="2018-11-29T11:54:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRadioButtonWithFieldISBNAtAuthorSearchButton -->
+        <test-method status="PASS" signature="verifySearchForTitleByKeywordAtAdvanceSearch(java.lang.String)[pri:32, instance:com.magic.axis360.testscript.AdvancedSearchBoxTestIT@60c6f5b]" name="verifySearchForTitleByKeywordAtAdvanceSearch" duration-ms="12232" started-at="2018-11-29T11:54:16Z" finished-at="2018-11-29T11:54:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dog]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchForTitleByKeywordAtAdvanceSearch -->
+        <test-method status="PASS" signature="verifySearchForTitleByTitleAtAdvanceSearch(java.lang.String)[pri:33, instance:com.magic.axis360.testscript.AdvancedSearchBoxTestIT@60c6f5b]" name="verifySearchForTitleByTitleAtAdvanceSearch" duration-ms="9752" started-at="2018-11-29T11:54:29Z" finished-at="2018-11-29T11:54:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Love That Dog]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchForTitleByTitleAtAdvanceSearch -->
+        <test-method status="PASS" signature="veriySearchForTitleByAuthorAtAdvanceSearch(java.lang.String)[pri:34, instance:com.magic.axis360.testscript.AdvancedSearchBoxTestIT@60c6f5b]" name="veriySearchForTitleByAuthorAtAdvanceSearch" duration-ms="9562" started-at="2018-11-29T11:54:38Z" finished-at="2018-11-29T11:54:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gygi, Craig]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- veriySearchForTitleByAuthorAtAdvanceSearch -->
+        <test-method status="PASS" signature="verifySearchForTitleByISBNAtAdvanceSearchAtAdvanceSearch(java.lang.String)[pri:35, instance:com.magic.axis360.testscript.AdvancedSearchBoxTestIT@60c6f5b]" name="verifySearchForTitleByISBNAtAdvanceSearchAtAdvanceSearch" duration-ms="59286" started-at="2018-11-29T11:54:48Z" finished-at="2018-11-29T11:55:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9781615730537]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchForTitleByISBNAtAdvanceSearchAtAdvanceSearch -->
+        <test-method status="PASS" signature="closeBrowserAterClassExecuted()[pri:0, instance:com.magic.axis360.testscript.AdvancedSearchBoxTestIT@60c6f5b]" name="closeBrowserAterClassExecuted" is-config="true" duration-ms="5594" started-at="2018-11-29T11:55:47Z" finished-at="2018-11-29T11:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserAterClassExecuted -->
+      </class> <!-- com.magic.axis360.testscript.AdvancedSearchBoxTestIT -->
+      <class name="com.magic.axis360.testscript.LoginTestIT">
+        <test-method status="PASS" signature="enterUrl()[pri:0, instance:com.magic.axis360.testscript.LoginTestIT@617faa95]" name="enterUrl" is-config="true" duration-ms="147" started-at="2018-11-29T11:46:51Z" finished-at="2018-11-29T11:46:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUrl -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String)[pri:1, instance:com.magic.axis360.testscript.LoginTestIT@617faa95]" name="verifyLogin" duration-ms="71965" started-at="2018-11-29T11:46:51Z" finished-at="2018-11-29T11:48:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Welcome, Saurabh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="closeBrowserAterClassExecuted()[pri:0, instance:com.magic.axis360.testscript.LoginTestIT@617faa95]" name="closeBrowserAterClassExecuted" is-config="true" duration-ms="4686" started-at="2018-11-29T11:48:03Z" finished-at="2018-11-29T11:48:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserAterClassExecuted -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.magic.axis360.testscript.LoginTestIT@617faa95]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2018-11-29T11:55:53Z" finished-at="2018-11-29T11:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.magic.axis360.testscript.LoginTestIT -->
+    </test> <!-- TestForAndroidChrome -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,161 @@
+Sep 13, 2018 6:03:34 PM com.magic.sussex.gui.StartBrowserAndReadInput doInBackground
+INFO: Fetching Number of pages in the docx file. Please wait for a min
+Sep 13, 2018 6:03:35 PM com.magic.util.WebDriverFactory getWebDriver
+INFO: Going to launch Web Browser
+Sep 13, 2018 6:03:37 PM com.magic.util.WebDriverFactory getWebDriver
+INFO: Chrome Web Browser launched
+Sep 13, 2018 6:03:38 PM com.magic.sussex.inputDetails.HtmlInputData getInputDocFileContentNew
+INFO: Fetching data from table 1
+Sep 13, 2018 6:03:52 PM com.magic.sussex.gui.GUI actionPerformed
+INFO: Submit button of page creation type Clicked
+Sep 13, 2018 6:03:52 PM com.magic.sussex.canvasDataPour.MainSussexPageCreation perform
+INFO: Accessing web application for ingestion of content
+Sep 13, 2018 6:04:00 PM com.magic.sussex.canvasDataPour.MainSussexPageCreation perform
+INFO: Login is successfull
+Sep 13, 2018 6:04:07 PM com.magic.sussex.canvasDataPour.MainSussexPageCreation perform
+INFO: Module Global Marketing Management selected
+Sep 13, 2018 6:04:07 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Fetching asset details
+Sep 13, 2018 6:04:24 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getClickOnFolderName
+INFO: Folder test get clicked
+Sep 13, 2018 6:04:39 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Total asset count 16
+Sep 13, 2018 6:04:39 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name 2018-08-24-15-18-48.mp4 and URL https://canvas.sussex.ac.uk/files/255858/download
+Sep 13, 2018 6:04:39 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name arrow-right.png and URL https://canvas.sussex.ac.uk/files/252236/download
+Sep 13, 2018 6:04:39 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name arrow-top-right.png and URL https://canvas.sussex.ac.uk/files/252237/download
+Sep 13, 2018 6:04:39 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name assignmentBrief_2x.jpg and URL https://canvas.sussex.ac.uk/files/252238/download
+Sep 13, 2018 6:04:39 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name desktop.ini and URL https://canvas.sussex.ac.uk/files/255850/download
+Sep 13, 2018 6:04:39 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name Eclipse Java Neon.lnk and URL https://canvas.sussex.ac.uk/files/255851/download
+Sep 13, 2018 6:04:39 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name Folens eReader.lnk and URL https://canvas.sussex.ac.uk/files/255852/download
+Sep 13, 2018 6:04:39 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name home_banner.jpg and URL https://canvas.sussex.ac.uk/files/252239/download
+Sep 13, 2018 6:04:40 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name Icon_Checklist.png and URL https://canvas.sussex.ac.uk/files/255868/download
+Sep 13, 2018 6:04:40 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name Icon_Examples.png and URL https://canvas.sussex.ac.uk/files/255866/download
+Sep 13, 2018 6:04:40 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name Icon_key.png and URL https://canvas.sussex.ac.uk/files/256282/download
+Sep 13, 2018 6:04:40 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name Icon_Portfolio.png and URL https://canvas.sussex.ac.uk/files/255867/download
+Sep 13, 2018 6:04:40 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name Icon_Q.png and URL https://canvas.sussex.ac.uk/files/256281/download
+Sep 13, 2018 6:04:40 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name jitin.jpg and URL https://canvas.sussex.ac.uk/files/255862/download
+Sep 13, 2018 6:04:40 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name splash.png and URL https://canvas.sussex.ac.uk/files/255406/download
+Sep 13, 2018 6:04:40 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Image Name TakeFurther2.png and URL https://canvas.sussex.ac.uk/files/256283/download
+Sep 13, 2018 6:04:40 PM com.magic.sussex.canvasDataPour.FileUploadAndInfo getAssetInfo
+INFO: Fetching asset information completed successfull
+Sep 13, 2018 6:04:40 PM com.magic.sussex.canvasDataPour.ReadTemplate verifyImageDetailsAvailable
+INFO: Verifying required images available in application
+Sep 13, 2018 6:04:40 PM com.magic.sussex.canvasDataPour.ReadTemplate verifyImageDetailsAvailable
+INFO: Table 1
+Sep 13, 2018 6:04:40 PM com.magic.sussex.canvasDataPour.MainSussexPageCreation perform
+INFO: All images are available in application
+Sep 13, 2018 6:04:40 PM com.magic.sussex.canvasDataPour.ReadTemplate redirectToAllPages
+INFO: Fetching the details of already created pages...
+Sep 13, 2018 6:04:55 PM com.magic.sussex.canvasDataPour.ReadTemplate redirectToAllPages
+INFO: Total count of already created pages 60
+Sep 13, 2018 6:04:59 PM com.magic.sussex.canvasDataPour.ReadTemplate redirectToAllPages
+INFO: Details of already existing pages fetched successfully
+Sep 13, 2018 6:05:04 PM com.magic.sussex.canvasDataPour.ReadTemplate getInputAndPourContent
+INFO: Ingestion of data table wise is getting started 
+Sep 13, 2018 6:05:04 PM com.magic.sussex.canvasDataPour.ReadTemplate getInputAndPourContent
+INFO: Table 1
+Sep 13, 2018 6:05:04 PM com.magic.sussex.canvasDataPour.ReadTemplate getInputAndPourContent
+INFO: Template Guide mentioned found in template folder
+Sep 13, 2018 6:05:04 PM com.magic.sussex.canvasDataPour.ReadTemplate getInputAndPourContent
+INFO: Page Title Test1
+Sep 13, 2018 6:05:07 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Reading template....
+Sep 13, 2018 6:05:08 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Preparing final html to be ingested
+Sep 13, 2018 6:05:08 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: InputKey PageSection
+Sep 13, 2018 6:05:08 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Deciding to Internationalise: Apply successfully entered in HTML code
+Sep 13, 2018 6:05:08 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: URL https://canvas.sussex.ac.uk/courses/3495/pages/week-1-deciding-to-internationalise-apply of page Week 1: Deciding to internationalise: Apply
+Sep 13, 2018 6:05:08 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Page Week 1: Deciding to internationalise: Apply URL https://canvas.sussex.ac.uk/courses/3495/pages/week-1-deciding-to-internationalise-apply successfully entered in HTML code
+Sep 13, 2018 6:05:08 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Deciding to Internationalise: Apply successfully entered in HTML code
+Sep 13, 2018 6:05:08 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Focus successfully entered in HTML code
+Sep 13, 2018 6:05:08 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: URL https://canvas.sussex.ac.uk/courses/3495/pages/week-1-deciding-to-internationalise-focus of page Week 1: Deciding to internationalise: Focus
+Sep 13, 2018 6:05:08 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Page Week 1: Deciding to internationalise: Focus URL https://canvas.sussex.ac.uk/courses/3495/pages/week-1-deciding-to-internationalise-focus successfully entered in HTML code
+Sep 13, 2018 6:05:08 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Explore successfully entered in HTML code
+Sep 13, 2018 6:05:08 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: URL https://canvas.sussex.ac.uk/courses/3495/pages/week-1-deciding-to-internationalise-explore of page Week 1: Deciding to internationalise: Explore
+Sep 13, 2018 6:05:08 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Page Week 1: Deciding to internationalise: Explore URL https://canvas.sussex.ac.uk/courses/3495/pages/week-1-deciding-to-internationalise-explore successfully entered in HTML code
+Sep 13, 2018 6:05:08 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Apply successfully entered in HTML code
+Sep 13, 2018 6:05:08 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: InputKey GuideHeading
+Sep 13, 2018 6:05:08 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text <strong style="font-weight: bold;">Go ahead and use this guide to help complete sections 1 and 2 of your international marketing plan.</strong> successfully entered in HTML code
+Sep 13, 2018 6:05:08 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: InputKey GuideImg
+Sep 13, 2018 6:05:08 PM com.magic.sussex.canvasDataPour.ReadTemplate imageSrc
+INFO: imageSrc
+Sep 13, 2018 6:05:08 PM com.magic.sussex.canvasDataPour.ReadTemplate imageSrc
+INFO: arrayList [src="", alt=""]
+Sep 13, 2018 6:05:08 PM com.magic.sussex.canvasDataPour.ReadTemplate getHTMLCodeAfterImageAltAndURL
+INFO: URL of Image  Icon_Examples.png is https://canvas.sussex.ac.uk/files/255866/download
+Sep 13, 2018 6:05:08 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text Icon_Examples.png successfully entered in HTML code
+Sep 13, 2018 6:05:08 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: InputKey GuideText
+Sep 13, 2018 6:05:08 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text <strong style="font-weight: bold;">Introduction</strong> successfully entered in HTML code
+Sep 13, 2018 6:05:08 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text In this section you provide an overview of the company and the product and/or service you have chosen with a clear rationale for each. The choice of organisation could be for a number of reasons including, for example, because it is your place of work, or you wish to work there, or because someone you know works there. Your choice of product and/or service might be because you are responsible for it in your organisation or it is a new product and/or service to be launched in another country, or it is from a different company and you are very passionate about it. This section should not be much longer than 100 words. successfully entered in HTML code
+Sep 13, 2018 6:05:08 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text <strong style="font-weight: bold;">Internal analysis</strong> successfully entered in HTML code
+Sep 13, 2018 6:05:08 PM com.magic.sussex.canvasDataPour.CommonDataPour getHomePageTemplateHTMLCode
+INFO: Input text In this section you describe the results of your internal analysis. You should report on aspects such as the preparedness of the organisation for internationalisation (part of the 'nine strategic windows' model and the internationalisation of the value chain); the motives and potential triggers to internationalise; which internationalisation theory might be most applicable to the organisation; and how you believe the organisation can develop an international competitive advantage (using Porter’s 'diamond' and 'five forces' models, value for customers and benchmarking). This section should not be much longer than 500 words. successfully entered in HTML code
+Sep 13, 2018 6:05:08 PM com.magic.sussex.canvasDataPour.ReadTemplate getInputAndPourContent
+INFO: Final html is ready to be poured
+Sep 13, 2018 6:05:08 PM com.magic.sussex.canvasDataPour.ReadTemplate getInputAndPourContent
+INFO: Final HTML Code of page Test1--> <div id="PageSection" style="display: block; margin-bottom: -5px; overflow: hidden; background: #f5f5f5; border-top: 4px solid #00afaa; height: 30px; padding-top: 6px; padding-left: 15px;">
+<p style="display: inline;"><a component="pagetitle1" style="text-decoration: none; color: #000000; font-size: 14px; font-family: sans-serif; margin-left: 0px; display: inline-block;" title="" href="https://canvas.sussex.ac.uk/courses/3495/pages/week-1-deciding-to-internationalise-apply"> <img component="page1" style="margin-bottom: 3px; margin-right: 10px;" src="https://canvas.sussex.ac.uk/courses/3495/files/221550/download" alt="back_small.png" width="14" height="14" data-api-endpoint="https://canvas.sussex.ac.uk/api/v1/courses/3495/files/221550" data-api-returntype="File">Deciding to Internationalise: Apply</a></p>
+<ul style="float: right; list-style: none; margin: 0px; font-family: sans-serif; padding: 0px;">
+<li style="float: left; margin: 1px 15px;"><a component="pagetitle2" style="padding: 2px 4px; text-decoration: none; font-size: 14px; color: #000000;" href="https://canvas.sussex.ac.uk/courses/3495/pages/week-1-deciding-to-internationalise-focus">Focus</a></li>
+<li style="float: left; margin: 1px 15px;"><a component="pagetitle3" style="padding: 2px 4px; text-decoration: none; font-size: 14px; color: #000000;" href="https://canvas.sussex.ac.uk/courses/3495/pages/week-1-deciding-to-internationalise-explore">Explore</a></li>
+<li style="float: left; margin: 1px 15px;"><a component="pagetitle4" style="padding: 2px 4px; text-decoration: none; font-size: 14px; color: #00afaa; border-bottom: 3px solid #00afaa; display: inline-block; height: 21px; width: 60px; text-align: center;" href="">Apply</a></li>
+</ul>
+</div>
+<div style="margin: auto; margin-top: 20px; border-bottom: 1px solid #979797; padding-bottom: 30px;">
+<div id="GuideHeading">
+<p component="heading" style="font-family: sans-serif; color: #000000; margin: 0px 0px; font-weight: bold;"><strong style="font-weight: bold;">Go ahead and use this guide to help complete sections 1 and 2 of your international marketing plan.</strong></p>
+</div>
+<div id="GuideImg" style="float: left; border-top: 6px solid #57345a; width: 127px; height: 90px; text-align: center; margin-top: 16px;"><span style="display: block; font-size: 80px; font-family: sans-serif; color: #e2592e; font-weight: bolder; width: 127px; height: 127px; background: #f4f4f4; line-height: 100px;"> <img component="iconimg" style="max-height: 88px; max-width: 74px; padding: 20px; vertical-align: top;" src="https://canvas.sussex.ac.uk/files/255866/download" alt="Icon_Examples.png" width="74" height="88"> </span></div>
+<div id="GuideText" style="margin-left: 137px; margin-top: 16px; padding-bottom: 1px; padding-right: 8px; background-color: #f4f4f4;">
+<ol style="font-family: sans-serif; font-size: 14px; color: #000000;">
+<li style="padding-top: 8px; font-weight: bold;"><span component="heading1"><strong style="font-weight: bold;">Introduction</strong></span>
+<p style="font-weight: 300;" component="pera1">In this section you provide an overview of the company and the product and/or service you have chosen with a clear rationale for each. The choice of organisation could be for a number of reasons including, for example, because it is your place of work, or you wish to work there, or because someone you know works there. Your choice of product and/or service might be because you are responsible for it in your organisation or it is a new product and/or service to be launched in another country, or it is from a different company and you are very passionate about it. This section should not be much longer than 100 words.</p>
+</li>
+<li style="font-weight: bold;"><span component="heading2"><strong style="font-weight: bold;">Internal analysis</strong></span>
+<p style="font-weight: 300;" component="pera2">In this section you describe the results of your internal analysis. You should report on aspects such as the preparedness of the organisation for internationalisation (part of the 'nine strategic windows' model and the internationalisation of the value chain); the motives and potential triggers to internationalise; which internationalisation theory might be most applicable to the organisation; and how you believe the organisation can develop an international competitive advantage (using Porter’s 'diamond' and 'five forces' models, value for customers and benchmarking). This section should not be much longer than 500 words.</p>
+</li>
+</ol>
+</div>
+</div>
+Sep 13, 2018 6:05:08 PM com.magic.sussex.canvasDataPour.ReadTemplate createPage
+INFO: Going to pour html code in Test1
+Sep 13, 2018 6:05:27 PM com.magic.sussex.canvasDataPour.ReadTemplate createPage
+INFO: Page Test1 created successfully
+Sep 13, 2018 6:05:27 PM com.magic.sussex.canvasDataPour.MainSussexPageCreation perform
+INFO: Execution completed please close the tool and restart it for next execution

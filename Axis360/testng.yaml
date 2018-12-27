@@ -1,0 +1,8 @@
+name: Suite
+configFailurePolicy: skip
+tests:
+  - name: Test
+    classes:
+      - com.magic.axis360.testscript.LoginTestIT
+      - com.magic.axis360.testscript.SearchBoxTestIT
+
